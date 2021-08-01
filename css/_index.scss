@@ -1,0 +1,38 @@
+.title__section {
+    padding: 140px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    @include for-tablet-portrait {
+        padding: 140px 30px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        color: #4b4a4a;
+
+        @include for-phone-only {
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 98px;
+        color: #4b4a4a;
+
+        @include for-phone-only {
+            font-size: 40px;
+            line-height: 49px;
+        }
+    }
+
+    @include for-phone-only {
+        align-self: center;
+    }
+}

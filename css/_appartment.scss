@@ -1,0 +1,29 @@
+.appartment__section {
+    padding: 16px;
+    h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        color: #4b4a4a;
+        margin-bottom: 16px;
+        @include for-phone-only {
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    .appartment__link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        i {
+            font-weight: bold;
+            font-size: 36px;
+            color: #4b4a4a;
+            margin-right: 16px;
+        }
+    }
+
+}
