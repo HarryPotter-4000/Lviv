@@ -598,10 +598,12 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
   left: -100%;
   height: 100%;
   margin-top: 90px;
+  padding: 24px 0;
   list-style: none;
-  background: #fff;
-  -webkit-box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
+  background: #c32222;
+  background: linear-gradient(21deg, #c32222 0%, white 91%);
+  -webkit-box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
 }
@@ -707,7 +709,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .entry__section .appartment__link .appartment__item .link, .appartment__section .appartment__link .appartment__name {
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .appartment__section .appartment__link .appartment__name {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -782,7 +784,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .entry__section .appartment__link .appartment__item .link, .appartment__section .appartment__link .appartment__name {
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .appartment__section .appartment__link .appartment__name {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -790,7 +792,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section ol li, .entry__section p, .entry__section .entry__link {
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section ol li, .entry__section p, .entry__section .links .entry__link {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -809,20 +811,31 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     line-height: 29px;
   }
 }
-.entry__section .appartment__link .appartment__item {
-  margin-bottom: 16px;
-}
-.entry__section .appartment__link .appartment__item .link i {
-  font-size: 24px;
-  margin-right: 8px;
-}
 .entry__section h3 {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-.entry__section .entry__link {
+.entry__section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.entry__section .links .entry__link {
+  color: #4b4a4a;
   text-decoration: none;
   margin-bottom: 16px;
+}
+.entry__section .links .entry__link i {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #5ea4dd;
 }
 .entry__section h4 {
   margin-top: 24px;
@@ -876,7 +889,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5 {
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .appartment__section .appartment__link .appartment__name, .entry__section h5 {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -884,7 +897,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .entry__link, .entry__section p, .entry__section ol li {
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -983,7 +996,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.money__section ul li, .appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text {
+.money__section ul li, .appartment__section .appartment__link .appartment__name, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -991,7 +1004,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .entry__link, .entry__section p, .entry__section ol li {
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1064,7 +1077,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+.appartment__section .appartment__link .appartment__name, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1072,7 +1085,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li {
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1140,7 +1153,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+.appartment__section .appartment__link .appartment__name, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1148,7 +1161,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.about__section ol li, .about__section .item p, .entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p {
+.about__section ol li, .about__section .item p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1259,7 +1272,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+.appartment__section .appartment__link .appartment__name, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
@@ -1267,7 +1280,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
 }
 
-.entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p, .about__section .item p, .about__section ol li {
+.entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p, .about__section .item p, .about__section ol li {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
