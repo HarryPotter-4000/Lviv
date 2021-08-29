@@ -41,63 +41,34 @@ $color_text: #4b4a4a;
     line-height: 19px;
 }
 
-.entry__section {
+.fop__section {
     padding: 16px;
-
     h2 {
         @extend %h2;
         margin-bottom: 16px;
-
-        @include for-phone-only {
-            font-size: 24px;
-            line-height: 29px;
+        span {
+            color: rgb(233, 95, 95);
         }
     }
-    .appartment__link {
-        .appartment__item {
+    ol {
+        list-style: inside decimal;
+        margin-top: 16px;
+        li {
+            @extend %Text;
             margin-bottom: 16px;
-            
-            .link {
-                @extend %BodyM;
-                i {
-                    font-size: 24px;
-                    margin-right: 8px;
-                }
-            }
+            max-width: 600px;
         }
-    }
-    h3 {
-        @extend %h4;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
-    .entry__link {
-        text-decoration: none;
-        @extend %Text;
-        margin-bottom: 16px;
-    }
-    h4 {
-        @extend %h4;
-        margin-top: 24px;
-        margin-bottom: 16px;
-    }
-    h5 {
-        @extend %BodyM;
-        margin-top: 16px;
-        margin-bottom: 16px;
     }
     p {
         @extend %Text;
         margin-bottom: 16px;
-        max-width: 600px;
     }
-    ol {
-        list-style: inside decimal;
-        li {
-            @extend %Text;
+    h3 {
+        font-family: Golos;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 21px;
+        color: rgb(233, 95, 95);
         margin-bottom: 16px;
-        max-width: 600px;
-        }
     }
-
 }

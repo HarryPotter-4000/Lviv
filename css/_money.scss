@@ -41,7 +41,7 @@ $color_text: #4b4a4a;
     line-height: 19px;
 }
 
-.entry__section {
+.money__section {
     padding: 16px;
 
     h2 {
@@ -53,51 +53,29 @@ $color_text: #4b4a4a;
             line-height: 29px;
         }
     }
-    .appartment__link {
-        .appartment__item {
-            margin-bottom: 16px;
-            
-            .link {
-                @extend %BodyM;
-                i {
-                    font-size: 24px;
-                    margin-right: 8px;
-                }
-            }
-        }
-    }
-    h3 {
-        @extend %h4;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
-    .entry__link {
-        text-decoration: none;
-        @extend %Text;
-        margin-bottom: 16px;
-    }
-    h4 {
-        @extend %h4;
-        margin-top: 24px;
-        margin-bottom: 16px;
-    }
-    h5 {
-        @extend %BodyM;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
     p {
         @extend %Text;
         margin-bottom: 16px;
         max-width: 600px;
     }
-    ol {
-        list-style: inside decimal;
-        li {
-            @extend %Text;
+    h3 {
+        @extend %h3;
         margin-bottom: 16px;
-        max-width: 600px;
+    }
+    ul {
+        list-style: inside;
+        li {
+            @extend %BodyM;
+            margin-bottom: 16px;
+        }
+        ol {
+            list-style: inside decimal;
+            margin-top: 16px;
+            li {
+                @extend %Text;
+                margin-bottom: 16px;
+                max-width: 600px;
+            }
         }
     }
-
 }

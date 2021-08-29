@@ -4,10 +4,10 @@
 @import "_index.scss";
 @import "_appartment.scss";
 @import "_entry.scss";
-// @import "_feednewsactive.scss";
-// @import "_feedconclusions.scss";
-// @import "_info.scss";
-// @import "_filter.scss";
+@import "_legalisation.scss";
+@import "money.scss";
+@import "_fop.scss";
+@import "_lviv.scss";
 // @import "_sort.scss";
 // @import "_sortnews.scss";
 // @import "_add.scss";
@@ -23,79 +23,79 @@
 // @import "slick.scss";
 // @import "_terms.scss";
 
-// @font-face {
-//     font-family: Golos;
-//     src: url(../Golos-Text.web/PT/PT/Golos-Text/Golos-Text_VF.WOFF);
-// }
+@font-face {
+    font-family: Golos;
+    src: url(../Golos-Text.web/PT/PT/Golos-Text/Golos-Text_VF.WOFF);
+}
 .container {
+    font-family: Golos;
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Montserrat;
-    font-style: normal;
 }
 
-$color_background: #FFFFEC;
-$color_filter-text: #FFFFEC;
-$color_black: #292F36;
-$color_blue20: #E6F0ED;
-$color_blue50: #82B3F2;
-$color_green20: #DFEFCE;
-$color_green50: #5FAD56;
-$color_yellow20: #FFF7D1;
-$color_yellow50: #FED766;
-$color_red20: #F3C6B2;
-$color_red50: #DD614A;
+// $color_background: #FFFFEC;
+// $color_filter-text: #FFFFEC;
+$color_text: #4b4a4a;
+// $color_blue20: #E6F0ED;
+// $color_blue50: #82B3F2;
+// $color_green20: #DFEFCE;
+// $color_green50: #5FAD56;
+// $color_yellow20: #FFF7D1;
+// $color_yellow50: #FED766;
+// $color_red20: #F3C6B2;
+// $color_red50: #DD614A;
 
-%h3 {
+%h1 {
     font-family: Golos;
     font-size: 36px;
     font-weight: 900;
     line-height: 43px;
+    color: $color_text;
 }
 
-%h4 {
-    color: $color_black;
+%h2 {
+    color: $color_text;
     font-family: Golos;
     font-size: 27px;
     font-weight: 700;
     line-height: 27px;
 }
 
-%h5 {
+%h3 {
     font-family: Golos;
     font-size: 21px;
     font-weight: 700;
     line-height: 21px;
-    color: $color_black;
+    color: $color_text;
 }
-%h6 {
+%h4 {
     font-family: Golos;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    color: $color_black;
+    color: $color_text;
 }
 %BodyM {
     font-family: Golos;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
-    color: $color_black;
+    color: $color_text;
 }
 %BodySMBold {
     font-family: Golos;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
-    // color: $color_black;
+    color: $color_text;
 }
 %BodySM {
     font-family: Golos;
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    color: $color_black;
+    color: $color_text;
 }
 %Text {
     font-family: Golos;
@@ -108,33 +108,20 @@ $color_red50: #DD614A;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    color: $color_black;
+    color: $color_text;
 }
 
-// @mixin for-small-phone-only {
-//     @media (max-width: 374px) {
-//         @content;
-//     }
-// }
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
 
-// @mixin for-landscape-phone-only {
-//     @media screen and (min-width: 415px) and (orientation:landscape) {
-//         @content;
-//     }
-// }
-
-// .container {
-//     background: $color_background;
-//     min-width: 375px;
-
-//     @include for-small-phone-only {
-//         min-width: 320px;
-//     }
-
-//     @include for-landscape-phone-only {
-//         max-width: 767px;
-//     }
-// }
+@mixin for-tablet-portrait {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
 
 a:focus {
     outline: none;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -598,7 +599,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
   height: 100%;
   margin-top: 90px;
   list-style: none;
-  background: linear-gradient(26deg, #dcba9d, transparent);
+  background: #fff;
   -webkit-box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 0.25s;
@@ -635,6 +636,22 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 
+.legalisation__section h1, .title__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .appartment__section h2, .title__section h2 {
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #4b4a4a;
+}
+
 .title__section {
   padding: 140px 16px;
   display: -webkit-box;
@@ -656,28 +673,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     padding: 140px 30px;
   }
 }
-.title__section h2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  color: #4b4a4a;
-}
 @media (max-width: 599px) {
   .title__section h2 {
-    font-size: 24px;
-    line-height: 29px;
+    text-align: right;
   }
-}
-.title__section h1 {
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 98px;
-  color: #4b4a4a;
 }
 @media (max-width: 599px) {
   .title__section h1 {
-    font-size: 40px;
-    line-height: 49px;
+    text-align: right;
   }
 }
 @media (max-width: 599px) {
@@ -688,15 +691,35 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 
+.legalisation__section h1, .title__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .appartment__section h2, .title__section h2 {
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #4b4a4a;
+}
+
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .entry__section .appartment__link .appartment__item .link, .appartment__section .appartment__link .appartment__name {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
 .appartment__section {
   padding: 16px;
 }
 .appartment__section h2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  color: #4b4a4a;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 @media (max-width: 599px) {
   .appartment__section h2 {
@@ -704,7 +727,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     line-height: 29px;
   }
 }
-.appartment__section .appartment__link {
+.appartment__section .appartment__link .appartment__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -712,30 +735,72 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 16px;
 }
-.appartment__section .appartment__link i {
+.appartment__section .appartment__link .appartment__item i {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   color: #4b4a4a;
   margin-right: 16px;
+  margin-bottom: 8px;
+}
+.legalisation__section h1, .title__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .title__section h2, .appartment__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.about__section .item .title h3, .money__section h3, .legalisation__section .demo h2 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.about__section .item h4, .legalisation__section .demo .legalisation__title, .legalisation__section .demo h3, .entry__section h4, .entry__section h3 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .entry__section h5, .entry__section .appartment__link .appartment__item .link, .appartment__section .appartment__link .appartment__name {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section ol li, .entry__section p, .entry__section .entry__link {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
 }
 
 .entry__section {
   padding: 16px;
 }
 .entry__section h2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  color: #4b4a4a;
   margin-bottom: 16px;
 }
 @media (max-width: 599px) {
@@ -744,19 +809,469 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     line-height: 29px;
   }
 }
+.entry__section .appartment__link .appartment__item {
+  margin-bottom: 16px;
+}
+.entry__section .appartment__link .appartment__item .link i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.entry__section h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.entry__section .entry__link {
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.entry__section h4 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.entry__section h5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 .entry__section p {
-  font-size: 16px;
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+.entry__section ol {
+  list-style: inside decimal;
+}
+.entry__section ol li {
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+
+.legalisation__section h1, .title__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
   color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .title__section h2, .appartment__section h2, .entry__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.about__section .item .title h3, .money__section h3, .legalisation__section .demo h2 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.about__section .item h4, .legalisation__section .demo .legalisation__title, .legalisation__section .demo h3, .entry__section h3, .entry__section h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.money__section ul li, .legalisation__section .demo .legalisation__text, .legalisation__section .demo ol, .appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .entry__link, .entry__section p, .entry__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.legalisation__section {
+  padding: 16px;
+}
+.legalisation__section h1 {
+  margin-bottom: 24px;
+}
+.legalisation__section .demo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /* скрываем чекбоксы и блоки с содержанием */
+  /* оформляем текст label */
+  /* вид текста label при активном переключателе */
+  /* когда чекбокс активен показываем блоки с содержанием  */
+}
+.legalisation__section .demo h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.legalisation__section .demo .legalisation__title {
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .hide {
+  display: none;
+}
+.legalisation__section .demo .hide + label ~ div {
+  display: none;
+}
+.legalisation__section .demo .hide + label {
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.legalisation__section .demo .hide:checked + label {
+  color: red;
+  border-bottom: 0;
+}
+.legalisation__section .demo .hide:checked + label + div {
+  display: block;
+  padding-left: 16px;
+}
+
+.title__section h1, .legalisation__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .title__section h2, .appartment__section h2, .entry__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.about__section .item .title h3, .money__section h3, .legalisation__section .demo h2 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.about__section .item h4, .entry__section h3, .entry__section h4, .legalisation__section .demo h3, .legalisation__section .demo .legalisation__title {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.money__section ul li, .appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .entry__link, .entry__section p, .entry__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.money__section {
+  padding: 16px;
+}
+.money__section h2 {
+  margin-bottom: 16px;
+}
+@media (max-width: 599px) {
+  .money__section h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+.money__section p {
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+.money__section h3 {
+  margin-bottom: 16px;
+}
+.money__section ul {
+  list-style: inside;
+}
+.money__section ul li {
+  margin-bottom: 16px;
+}
+.money__section ul ol {
+  list-style: inside decimal;
+  margin-top: 16px;
+}
+.money__section ul ol li {
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+
+.title__section h1, .legalisation__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .fop__section h2, .title__section h2, .appartment__section h2, .entry__section h2, .money__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.about__section .item .title h3, .legalisation__section .demo h2, .money__section h3 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.about__section .item h4, .entry__section h3, .entry__section h4, .legalisation__section .demo h3, .legalisation__section .demo .legalisation__title {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.fop__section {
+  padding: 16px;
+}
+.fop__section h2 {
+  margin-bottom: 16px;
+}
+.fop__section h2 span {
+  color: #e95f5f;
+}
+.fop__section ol {
+  list-style: inside decimal;
+  margin-top: 16px;
+}
+.fop__section ol li {
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+.fop__section p {
+  margin-bottom: 16px;
+}
+.fop__section h3 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #e95f5f;
   margin-bottom: 16px;
 }
 
+.title__section h1, .legalisation__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.about__section h1, .about__section h2, .title__section h2, .appartment__section h2, .entry__section h2, .money__section h2, .fop__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.about__section .item .title h3, .legalisation__section .demo h2, .money__section h3 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.about__section .item h4, .entry__section h3, .entry__section h4, .legalisation__section .demo h3, .legalisation__section .demo .legalisation__title {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.about__section ol li, .about__section .item p, .entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.about__section {
+  padding: 16px;
+}
+.about__section h2 {
+  margin-bottom: 16px;
+  text-align: right;
+}
+.about__section h1 {
+  margin-bottom: 16px;
+  text-align: right;
+}
+.about__section .item {
+  margin-bottom: 16px;
+}
+.about__section .item .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.about__section .item .title i {
+  font-size: 24px;
+  color: #4b4a4a;
+  margin-right: 16px;
+}
+.about__section .item .title h3 {
+  margin-bottom: 16px;
+}
+.about__section .item h4 {
+  margin-bottom: 16px;
+}
+.about__section .item p {
+  margin-bottom: 16px;
+}
+.about__section .item p span {
+  color: #e95f5f;
+}
+.about__section ol {
+  list-style: inside decimal;
+  margin-top: 16px;
+}
+.about__section ol li {
+  margin-bottom: 16px;
+  max-width: 600px;
+}
+.about__section h3 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #e95f5f;
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Golos;
+  src: url(../Golos-Text.web/PT/PT/Golos-Text/Golos-Text_VF.WOFF);
+}
 .container {
+  font-family: Golos;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: Montserrat;
-  font-style: normal;
+}
+
+.title__section h1, .legalisation__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
+}
+
+.title__section h2, .appartment__section h2, .entry__section h2, .money__section h2, .fop__section h2, .about__section h2, .about__section h1 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.legalisation__section .demo h2, .money__section h3, .about__section .item .title h3 {
+  font-family: Golos;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #4b4a4a;
+}
+
+.entry__section h3, .entry__section h4, .legalisation__section .demo h3, .legalisation__section .demo .legalisation__title, .about__section .item h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.appartment__section .appartment__link .appartment__name, .entry__section .appartment__link .appartment__item .link, .entry__section h5, .legalisation__section .demo ol, .legalisation__section .demo .legalisation__text, .money__section ul li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+
+.entry__section .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p, .about__section .item p, .about__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
 }
 
 a:focus {

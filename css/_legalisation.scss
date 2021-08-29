@@ -1,0 +1,103 @@
+$color_text: #4b4a4a;
+%h1 {
+    font-family: Golos;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+    color: $color_text;
+}
+%h2 {
+    color: $color_text;
+    font-family: Golos;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+}
+%h3 {
+    font-family: Golos;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21px;
+    color: $color_text;
+}
+%h4 {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: $color_text;
+}
+%BodyM {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: $color_text;
+}
+%Text {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.legalisation__section {
+    padding: 16px;
+    h1 {
+        @extend %h1;
+        margin-bottom: 24px;
+    }
+    .demo {
+        h2 {
+            @extend %h3;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        h3 {
+            @extend %h4;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        ol {
+            @extend %BodyM;
+            list-style-type: decimal;
+            list-style-position: inside;
+        }
+        .legalisation__title {
+            @extend %h4;
+            margin-bottom: 8px;
+        }
+        .legalisation__text {
+            @extend %BodyM;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* скрываем чекбоксы и блоки с содержанием */
+        .hide {
+            display: none; 
+        }
+        .hide + label ~ div{
+            display: none;
+        }
+        /* оформляем текст label */
+        .hide + label {
+            padding: 0;
+            cursor: pointer;
+            display: inline-block; 
+        }
+        /* вид текста label при активном переключателе */
+        .hide:checked + label {
+            color: red;
+            border-bottom: 0;
+        }
+        /* когда чекбокс активен показываем блоки с содержанием  */
+        .hide:checked + label + div {
+            display: block; 
+            padding-left: 16px; 
+        }
+    }
+    
+
+
+}   

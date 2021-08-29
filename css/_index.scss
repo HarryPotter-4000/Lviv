@@ -1,3 +1,31 @@
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+$color_text: #4b4a4a;
+%h1 {
+    font-family: Golos;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+    color: $color_text;
+}
+
+%h2 {
+    font-family: Golos;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+    color: $color_text;
+}
+
 .title__section {
     padding: 140px 16px;
     display: flex;
@@ -9,26 +37,18 @@
         padding: 140px 30px;
     }
     h2 {
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 49px;
-        color: #4b4a4a;
+        @extend %h2;
 
         @include for-phone-only {
-            font-size: 24px;
-            line-height: 29px;
+            text-align: right
         }
     }
 
     h1 {
-        font-weight: bold;
-        font-size: 80px;
-        line-height: 98px;
-        color: #4b4a4a;
+        @extend %h1;
 
         @include for-phone-only {
-            font-size: 40px;
-            line-height: 49px;
+            text-align: right;
         }
     }
 

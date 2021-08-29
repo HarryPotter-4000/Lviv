@@ -1,28 +1,53 @@
+$color_text: #4b4a4a;
+%h1 {
+    font-family: Golos;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+    color: $color_text;
+}
+
+%h2 {
+    font-family: Golos;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+    color: $color_text;
+}
+%BodyM {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: $color_text;
+}
 .appartment__section {
     padding: 16px;
     h2 {
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 49px;
-        color: #4b4a4a;
-        margin-bottom: 16px;
+        @extend %h2;
+        margin-bottom: 24px;
         @include for-phone-only {
             font-size: 24px;
             line-height: 29px;
         }
     }
     .appartment__link {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        
-        i {
-            font-weight: bold;
-            font-size: 36px;
-            color: #4b4a4a;
-            margin-right: 16px;
+        .appartment__item {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 16px;
+                i {
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: $color_text;
+                    margin-right: 16px;
+                    margin-bottom: 8px;
+                }
+        }
+        .appartment__name {
+            @extend %BodyM;
         }
     }
 
