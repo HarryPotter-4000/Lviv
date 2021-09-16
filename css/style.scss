@@ -118,7 +118,7 @@ $color_text: #4b4a4a;
 }
 
 @mixin for-tablet-portrait {
-    @media (max-width: 768px) {
+    @media (max-width: 798px) {
         @content;
     }
 }
