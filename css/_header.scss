@@ -23,7 +23,7 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 16px 16px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0px 5px 5px -5px rgba(87, 89, 91, 0.6);
 
 
         // @include for-tablet-portrait {
@@ -35,7 +35,7 @@ header {
         // }
 
         .navigation__home {
-            width: 10%;
+            width: 15%;
 
             .navigation__img {
                 width: 100%;
