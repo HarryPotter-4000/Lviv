@@ -443,6 +443,8 @@ textarea {
 
 header .nav__container {
   position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
   background-color: white;
   display: -webkit-box;
@@ -516,7 +518,7 @@ header .nav__container .navigation__menu li a {
   padding: 5px 25px;
 }
 header .nav__container .navigation__menu li a:hover {
-  border: 1px solid red;
+  color: #000;
 }
 @media (max-width: 768px) {
   header .nav__container .navigation__menu {
@@ -602,8 +604,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
   margin-top: 86px;
   padding: 24px 0;
   list-style: none;
-  background: #c32222;
-  background: linear-gradient(22deg, #c32222 40%, white 91%);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(67%, rgba(230, 16, 16, 0.703985818)), to(white));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(230, 16, 16, 0.703985818) 67%, white 100%);
   -webkit-box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 0.25s;
