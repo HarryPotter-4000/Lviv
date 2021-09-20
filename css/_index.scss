@@ -40,7 +40,7 @@ $color_text: #4b4a4a;
         @extend %h2;
 
         @include for-phone-only {
-            text-align: right
+            text-align: center
         }
     }
 
@@ -48,7 +48,7 @@ $color_text: #4b4a4a;
         @extend %h1;
 
         @include for-phone-only {
-            text-align: right;
+            text-align: center;
         }
     }
 
