@@ -27,84 +27,98 @@ $color_text: #4b4a4a;
 }
 .container {
   .title__section {
-    margin-top: 100px;
+    margin: 134px 0 50px;
     padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
+    @include for-phone-only {
+      margin: 100px 0 32px;
+    }
     h2 {
       @extend %h2;
-      @include for-phone-only {
-          text-align: center;
-      }
     }
 
     h1 {
       @extend %h1;
+    }
+  }
+  .carousel {
+    .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
       @include for-phone-only {
-        text-align: center;
+        background-image: none;
       }
     }
-    @include for-phone-only {
-      align-self: center;
-    }
-  }
-  .lesson {
-    min-height: 250px;
-    padding: 16px;
-    background-image: url(../img/Slider-1-background.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    @include for-phone-only {
-      background-image: url(../img/Slider-1-background-phone.jpg);
-      background-position: right;
-    background-size: cover;
-    }
-    h3 {
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 21px;
-      color: red;
-      margin: 16px 0 8px;
-    }
-    .text {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 19px;
-      color: #4b4a4a;
-      margin: 16px 0 8px;
+    .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+      @include for-phone-only {
+        background-image: none;
+      }
     }
 
-  }
-  .meet {
-    min-height: 250px;
-    padding: 16px;
-    background-image: url(../img/Slider-2-background.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    @include for-phone-only {
-      background-position: center;
-    background-size: cover;
+    .lessons {
+      min-height: 250px;
+      padding: 16px 0 16px 200px;
+      background-image: url(../img/Slider-1-background.jpg);
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      @include for-phone-only {
+        background-image: url(../img/Slider-1-background-phone.jpg);
+        background-position: right;
+        background-size: cover;
+        padding: 16px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27px;
+        color: #4b4a4a;;
+        margin: 32px 0 8px;
+        span {
+          color: #cc0001;
+        }
+      }
+      .text {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        color: #4b4a4a;
+        margin: 16px 0 8px;
+        span {
+          color: #cc0001;
+        }
+      }
     }
-    h3 {
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 21px;
-      color: white;
-      margin: 16px 0 8px;
-    }
-    .text {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 19px;
-      color: white;
-      margin: 16px 0 8px;
+    .meet {
+      text-align: center;
+      min-height: 250px;
+      padding: 16px;
+      background-image: url(../img/Slider-2-background.jpg);
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      @include for-phone-only {
+        background-position: center;
+        background-size: cover;
+      }
+      h3 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        margin: 32px 0 8px;
+      }
+      .text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        color: white;
+        margin: 16px 0 8px;
+      }
     }
 
   }
 }
-

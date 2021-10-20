@@ -11,4 +11,4 @@ let currentScrollPos = window.pageYOffset;
 	}
 	prevScrollpos = currentScrollPos;
 }
-
+$('.collapse').collapse()
