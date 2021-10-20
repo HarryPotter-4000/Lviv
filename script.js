@@ -11,3 +11,4 @@ let currentScrollPos = window.pageYOffset;
 	}
 	prevScrollpos = currentScrollPos;
 }
+

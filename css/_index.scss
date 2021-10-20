@@ -1,58 +1,110 @@
 @mixin for-phone-only {
-    @media (max-width: 599px) {
-        @content;
-    }
+  @media (max-width: 599px) {
+    @content;
+  }
 }
 
 @mixin for-tablet-portrait {
-    @media (max-width: 768px) {
-        @content;
-    }
+  @media (max-width: 768px) {
+    @content;
+  }
 }
 $color_text: #4b4a4a;
 %h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: $color_text;
 }
 
 %h2 {
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-    color: $color_text;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  color: $color_text;
 }
-
-.title__section {
-    padding: 156px 16px;
+.container {
+  .title__section {
+    margin-top: 100px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 
-    @include for-tablet-portrait {
-        padding: 140px 30px;
-    }
     h2 {
-        @extend %h2;
-
-        @include for-phone-only {
-            text-align: center
-        }
+      @extend %h2;
+      @include for-phone-only {
+          text-align: center;
+      }
     }
 
     h1 {
-        @extend %h1;
-
-        @include for-phone-only {
-            text-align: center;
-        }
+      @extend %h1;
+      @include for-phone-only {
+        text-align: center;
+      }
     }
-
     @include for-phone-only {
-        align-self: center;
+      align-self: center;
     }
+  }
+  .lesson {
+    min-height: 250px;
+    padding: 16px;
+    background-image: url(../img/Slider-1-background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include for-phone-only {
+      background-image: url(../img/Slider-1-background-phone.jpg);
+      background-position: right;
+    background-size: cover;
+    }
+    h3 {
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 21px;
+      color: red;
+      margin: 16px 0 8px;
+    }
+    .text {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+      color: #4b4a4a;
+      margin: 16px 0 8px;
+    }
+
+  }
+  .meet {
+    min-height: 250px;
+    padding: 16px;
+    background-image: url(../img/Slider-2-background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include for-phone-only {
+      background-position: center;
+    background-size: cover;
+    }
+    h3 {
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 21px;
+      color: white;
+      margin: 16px 0 8px;
+    }
+    .text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      color: white;
+      margin: 16px 0 8px;
+    }
+
+  }
 }
+
