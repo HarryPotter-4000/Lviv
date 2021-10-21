@@ -70,5 +70,263 @@ $color_text: #4b4a4a;
         font-weight: 700;
         line-height: 14px;
         color: #4b4a4a;
+        span {
+            color: #a326f7;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .demo {
+        .translate {
+            .legalisation__translate {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 16px;
+            }
+            ul {
+                list-style:inside;
+                li {
+                    font-family: Golos;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 14px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+        .apostil {
+            h4 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                color: #cc0001;
+                margin-bottom: 16px;
+                span {
+                    color: #a326f7;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            .legalisation__text {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+            }
+            ul {
+                list-style:inside;
+                li {
+                    font-family: Golos;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 14px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                    span {
+                        margin-top: 8px;
+                        font-family: Golos;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        color: #4b4a4a;
+                    }
+                }
+            }
+            .legalisation__title {
+                margin-top: 8px;
+                        font-family: Golos;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        color: #4b4a4a;
+            }
+        }
+        .residence {
+            h5 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 16px;
+            }
+            h4 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                color: #cc0001;
+                margin: 16px 0;
+            }
+            .legalisation__text {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+                span {
+                    color: #e21b88;
+                }
+            }
+            ul {
+                list-style:inside;
+                li {
+                    font-family: Golos;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 14px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                    span {
+                        color: #e21b88;
+                    }
+                }
+            }
+            h6 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #e21b88;
+                margin-bottom: 16px;
+            }
+        }
+        .quotas {
+            h4 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 16px;
+                span {
+                    color: #a326f7;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            h6 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #e21b88;
+                margin-bottom: 16px;
+            }
+            .legalisation__text {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+            }
+            .list {
+                list-style: decimal;
+                font-family: Golos;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 14px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+                padding-left: 0;
+                span {
+                    color: #e21b88;
+                    margin-bottom: 8px;
+                }
+            }
+            ol {
+                li {
+                    list-style: decimal inside;
+                    font-family: Golos;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 14px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                    span {
+                        color: #e21b88;
+                        margin-bottom: 8px;
+                    }
+                }
+                ul {
+                    padding-left: 16px;
+                    list-style:square;
+                    li {
+                        list-style:inside;
+                    }
+                }
+            }
+            .legalisation__title {
+                margin-top: 8px;
+                        font-family: Golos;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        color: #4b4a4a;
+            }
+        }
+        .guides {
+            h5 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 16px;
+            }
+        }
+        .auto {
+            .legalisation__text {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+                span {
+                    color: #e21b88;
+                    margin-bottom: 8px;
+                }
+            }
+            ol {
+                li {
+                    list-style: decimal inside;
+                    font-family: Golos;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 14px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                    span {
+                        color: #e21b88;
+                        margin-bottom: 8px;
+                    }
+                }
+                ul {
+                    padding-left: 16px;
+                    list-style:square;
+                    li {
+                        list-style:inside;
+                    }
+                }
+            }
+            h4 {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #cc0001;
+                margin-bottom: 16px;
+            }
+        }
     }
 }   

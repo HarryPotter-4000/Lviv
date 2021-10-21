@@ -1093,6 +1093,246 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   line-height: 14px;
   color: #4b4a4a;
 }
+.legalisation__section h5 span {
+  color: #a326f7;
+  font-size: 14px;
+  font-weight: 500;
+}
+.legalisation__section .demo .translate .legalisation__translate {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .translate ul {
+  list-style: inside;
+}
+.legalisation__section .demo .translate ul li {
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .apostil h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #cc0001;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .apostil h4 span {
+  color: #a326f7;
+  font-size: 14px;
+  font-weight: 500;
+}
+.legalisation__section .demo .apostil .legalisation__text {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .apostil ul {
+  list-style: inside;
+}
+.legalisation__section .demo .apostil ul li {
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .apostil ul li span {
+  margin-top: 8px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+.legalisation__section .demo .apostil .legalisation__title {
+  margin-top: 8px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+.legalisation__section .demo .residence h5 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .residence h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #cc0001;
+  margin: 16px 0;
+}
+.legalisation__section .demo .residence .legalisation__text {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .residence .legalisation__text span {
+  color: #e21b88;
+}
+.legalisation__section .demo .residence ul {
+  list-style: inside;
+}
+.legalisation__section .demo .residence ul li {
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .residence ul li span {
+  color: #e21b88;
+}
+.legalisation__section .demo .residence h6 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #e21b88;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .quotas h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .quotas h4 span {
+  color: #a326f7;
+  font-size: 14px;
+  font-weight: 500;
+}
+.legalisation__section .demo .quotas h6 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #e21b88;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .quotas .legalisation__text {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .quotas .list {
+  list-style: decimal;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+  padding-left: 0;
+}
+.legalisation__section .demo .quotas .list span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .quotas ol li {
+  list-style: decimal inside;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .quotas ol li span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .quotas ol ul {
+  padding-left: 16px;
+  list-style: square;
+}
+.legalisation__section .demo .quotas ol ul li {
+  list-style: inside;
+}
+.legalisation__section .demo .quotas .legalisation__title {
+  margin-top: 8px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+.legalisation__section .demo .guides h5 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
+}
+.legalisation__section .demo .auto .legalisation__text {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .auto .legalisation__text span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .auto ol li {
+  list-style: decimal inside;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .auto ol li span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.legalisation__section .demo .auto ol ul {
+  padding-left: 16px;
+  list-style: square;
+}
+.legalisation__section .demo .auto ol ul li {
+  list-style: inside;
+}
+.legalisation__section .demo .auto h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #cc0001;
+  margin-bottom: 16px;
+}
 
 .container .title__section h1 {
   font-family: Golos;
