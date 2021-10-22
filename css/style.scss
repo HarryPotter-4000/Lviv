@@ -9,7 +9,7 @@
 @import "_fop.scss";
 @import "_lviv.scss";
 @import "_viza.scss";
-// @import "_education.scss";
+@import "_vaccinations.scss";
 // @import "_educationfilter.scss";
 // @import "_educationsort.scss";
 // @import "_educationactive.scss";
@@ -38,7 +38,7 @@
 }
 
 @mixin for-tablet-portrait {
-    @media (max-width: 798px) {
+    @media (max-width: 870px) {
         @content;
     }
 }

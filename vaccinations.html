@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="container nav__container">
+            <ul class="navigation__menu">
+                <li><a href="entry.html">Въезд</a></li>
+                <li><a href="rent.html">Аренда</a></li>
+                <li><a href="legalisation.html">ВНЖ</a></li>
+                <li><a href="fop.html">ФОП</a></li>
+                <li><a href="viza.html">Визы</a></li>
+                <li><a href="money.html">Банки</a></li>
+                <li><a href="lviv.html">Львов</a></li>
+                <li><a href="vaccinations.html" class="active">Вакцинация</a></li>
+            </ul>
+            <a class="navigation__home" href="index.html"><img src="img/logo2.jpg" alt="logo"
+                    class="navigation__img"></a>
+            <div class="navigation__mobile">
+                <input id="navigation-mobile__toggle" type="checkbox" />
+                <label class="navigation-mobile__btn" for="navigation-mobile__toggle">
+                    <span></span>
+                </label>
+                <ul class="navigation-mobile__box">
+                    <li><a class="navigation-mobile__item" href="entry.html">Въезд</a></li>
+                    <li><a class="navigation-mobile__item" href="rent.html">Аренда</a></li>
+                    <li><a class="navigation-mobile__item" href="legalisation.html">ВНЖ</a></li>
+                    <li><a class="navigation-mobile__item" href="fop.html">ФОП</a></li>
+                    <li><a class="navigation-mobile__item" href="viza.html">Визы</a></li>
+                    <li><a class="navigation-mobile__item" href="money.html">Банки</a></li>
+                    <li><a class="navigation-mobile__item" href="lviv.html">Львов</a></li>
+                    <li><a class="navigation-mobile__item" href="vaccinations.html">Вакцинация</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="container vaccinations__section">
+        <h2>Вакцинация в Украине</h2>
+        <h3>Кто может вакцинироваться:</h3>
+        <p>Все находящиеся на территории Украины, разница лишь в том, какой сертификат о вакцинации можно получить.</p>
+        <p>Ссылка на закон: Іноземці та особи без громадянства можуть вакцинуватися від COVID-19 в Україні<br>
+            <a href="https://moz.gov.ua/article/news/inozemci-ta-osobi-bez-gromadjanstva-mozhut-vakcinuvatisja-vid-covid-19-v-ukraini" target="blank">visitukraine.today</a></p>
+
+        <h3>Где вакцинироваться:</h3>
+        <p>Точки вакцинации и время работы пунктов можно посмотреть тут, наличие вакцины нужно узнавать по телефону или при обращении в центр.</p>
+        <p>Список пунктів щеплень та центрів масової вакцинації<br>
+            <a href="https://list.covid19.gov.ua/" target="blank">list.covid19.gov.ua - государственный сайт</a>
+            <a href="https://helsi.me/lp/vaccination" target="blank">helsi.me - частный медицинский агрегатор с подробным FAQ на часто задаваемые вопросы о вакцинации, на нем также можно найти ликаря</a>
+        </p>
+        <h3>Виды сертификатов:</h3>
+        <ol>
+            <li>QR-код - это <span>международного образца</span>, получить можно только через ДИЯ</li>
+            <li>Государственного образца <span>на желтой бумаге</span>, который используется в основном внутри страны выдачи.<br>
+                признан Молдовой (будет дополняться)</li>
+        </ol>
+        <h4>Весь курс занимает около месяца, 2 укола, с паузами между уколами в зависимости от вакцины.<br>
+            Сертификат сразу на руки или если через ликаря то где-то через сутки</h4>
+        <h3>Как получить сертификат:</h3>
+        <ol>
+            <li>QR-код - <span>международного образца</span>: нужны документы временного нахождения в Украине (ВНЖ/ПНЖ/свидетельство беженца или как то так)
+                <ul>
+                    <li>для этого нужен договор с ликарем который внесет в базу<br>
+                        <a href="https://ehealth.gov.ua/" target="blank">ehealth.gov.ua</a>
+                        информацию о вакцинации и, благодаря этому, появится возможность сгенерить QR сертификат в ДИЯ 
+                        <a href="https://diia.gov.ua/services/covid19-sertifikat-pro-vakcinaciyu" target="blank">diia.gov.ua</a><br>
+                        QR сертификат в ДИЯ можно сгенерить только через их веб сайт (в мобильных приложениях пока недоступно)
+                    </li>
+                </ul>
+            </li>
+            <li>Сертификат <span>на желтой бумаге</span>: выдается сразу в месте вакцинации после второго укола.<br>
+                Если договора с ликарем нет, для внесения данных об принадлежности сертификата используется любой паспорт вакцинируемого лица.
+            </li>
+        </ol>
+        <h3>Где найти лікаря:</h3>
+        <p>Тут <a href="https://helsi.me/doctors/lviv" target="blank">helsi.me/doctors</a>, проверенный подписчиками канала medicover.ua</p>
+    </section>
+</body>
+
+</html>

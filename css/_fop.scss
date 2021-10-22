@@ -3,43 +3,22 @@
     h2 {
         color: #4b4a4a;
         font-family: Golos;
-        font-size: 19px;
+        font-size: 21px;
         font-weight: 700;
         line-height: 27px;
         margin-bottom: 16px;
         span {
             color: #a326f7;
-            font-size: 16px;
+            font-size: 19px;
             font-weight: 500;
         }
-    }
-    ol {
-        list-style: inside decimal;
-        margin-top: 16px;
-        li {
-            font-family: Golos;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 19px;
-            margin-bottom: 16px;
-            color: #4b4a4a;
-            margin-bottom: 16px;
-        }
-    }
-    p {
-        font-family: Golos;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        margin-bottom: 16px;
-        color: #4b4a4a;
     }
     h3 {
         font-family: Golos;
-        font-size: 21px;
-        font-weight: 500;
-        line-height: 21px;
-        color: #cc0001;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #4b4a4a;
         margin-bottom: 8px;
         span {
             color: #a326f7;
@@ -53,13 +32,27 @@
         font-weight: 700;
         line-height: 19px;
         color: #4b4a4a;
-        span {
-            color: #a326f7;
+        margin: 16px 0;
+    }
+    ol {
+        list-style: inside decimal;
+        margin: 16px 0;
+        li {
+            font-family: Golos;
             font-size: 16px;
             font-weight: 500;
+            line-height: 19px;
+            margin-bottom: 16px;
+            color: #4b4a4a;
+            margin-bottom: 8px;
         }
     }
-    .links {
+    p {
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
         margin-bottom: 16px;
+        color: #4b4a4a;
     }
 }

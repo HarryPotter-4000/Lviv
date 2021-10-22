@@ -1,4 +1,4 @@
-.entry__section {
+.vaccinations__section {
     padding: 100px 16px 16px;
     h2 {
         color: #4b4a4a;
@@ -13,7 +13,7 @@
         font-size: 19px;
         font-weight: 700;
         line-height: 19px;
-        color: #4b4a4a;
+        color: #e21b88;
         margin: 16px 0;
     }
     h4 {
@@ -23,19 +23,6 @@
         line-height: 19px;
         color: #4b4a4a;
         margin: 16px 0;
-    }
-    .links {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        .entry__link {
-            margin-bottom: 16px;
-            i {
-                margin-right: 8px;
-                font-size: 18px;
-                color: rgb(94, 164, 221);
-            }
-        }
     }
     p {
         font-family: Golos;
@@ -54,6 +41,9 @@
             line-height: 19px;
             color: #4b4a4a;
             margin-bottom: 8px;
+            span {
+                color: #e21b88;
+            }
         }
     }
 

@@ -6,15 +6,6 @@
         font-size: 24px;
         font-weight: 700;
         line-height: 27px;
-        margin-bottom: 8px;
-        text-align: left;
-    }
-    h1 {
-        color: #4b4a4a;
-        font-family: Golos;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 27px;
         margin-bottom: 36px;
         text-align: left;
     }
@@ -34,7 +25,7 @@
                 font-family: Golos;
                 font-size: 19px;
                 font-weight: 700;
-                line-height: 21px;
+                line-height: 19px;
                 color: #e21b88;
                 margin-bottom: 16px;
             }
@@ -53,10 +44,10 @@
             font-size: 16px;
             font-weight: 500;
             line-height: 19px;
-            color: #4b4a4a;
             margin-bottom: 16px;
+            color: #4b4a4a;
             span {
-                color: rgb(233, 95, 95);
+                color: #e21b88;
             }
         }
     }
@@ -69,7 +60,7 @@
             font-weight: 500;
             line-height: 19px;
             color: #4b4a4a;
-            margin-bottom: 16px;
+            margin-bottom: 8px;
             max-width: 600px;
         }
     }
@@ -86,16 +77,14 @@
                 color: #e21b88;
                 margin-bottom: 8px;
             }
+            p {
+                font-family: Golos;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #4b4a4a;
+                padding: 0 20px;
+            }
         }
-    }
-    
-    h3 {
-        font-family: Golos;
-        color: #4b4a4a;
-        font-size: 21px;
-        font-weight: 500;
-        line-height: 21px;
-        color: rgb(233, 95, 95);
-        margin-bottom: 16px;
     }
 }

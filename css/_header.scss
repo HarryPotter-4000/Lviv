@@ -5,7 +5,7 @@
 }
 
 @mixin for-tablet-portrait {
-    @media (max-width: 768px) {
+    @media (max-width: 870px) {
         @content;
     }
 }
@@ -28,15 +28,6 @@ header {
         align-items: center;
         box-shadow: 0px 5px 5px -5px rgba(87, 89, 91, 0.6);
 
-
-        // @include for-tablet-portrait {
-        //     padding: 30px;
-        // }
-
-        // @include for-phone-only {
-        //     padding: 30px 20px;
-        // }
-
         .navigation__home {
             width: 15%;
 
@@ -47,7 +38,7 @@ header {
 
             @include for-tablet-portrait {
                 order: 1;
-                width: 15%;
+                width: 20%;
             }
 
             @include for-phone-only {
@@ -73,12 +64,10 @@ header {
                     font-size: 16px;
                     line-height: 20px;
                     color:#000;
-                    // border: 1px solid transparent;
-                    // border-radius: 30px;
-                    padding: 24px 24px;
+                    padding: 24px 16px;
 
                     &:hover {
-                        color:red;
+                        color: #cc0001;
                     }
                     
                 }
@@ -124,13 +113,15 @@ header {
                 visibility: visible;
                 left: 0;
             }
-
+            label {
+                top: 34px;
+            }
             .navigation-mobile__btn {
                 display: flex;
                 position: fixed;
-                top: 50px;
+                top: 34px;
                 left: 16px;
-                width: 30px;
+                width: 26px;
                 height: 26px;
                 cursor: pointer;
                 z-index: 1;
@@ -148,7 +139,7 @@ header {
                 position: absolute;
                 width: 100%;
                 height: 2px;
-                background-color: red;
+                background-color: #cc0001;
                 transition-duration: .25s;
             }
 
@@ -191,8 +182,8 @@ header {
                     transition-duration: .25s;
 
                     &:hover {
-                        background-color: red;
-                        color: red;
+                        background-color: #cc0001;
+                        color: #cc0001;
                     }
 
                     &::selection {

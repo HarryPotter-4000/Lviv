@@ -3,7 +3,7 @@
   h2 {
     color: #4b4a4a;
     font-family: Golos;
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 27px;
     margin-bottom: 24px;
@@ -22,6 +22,9 @@
     .rent__link {
       text-decoration: none;
       width: 20%;
+      @include for-tablet-portrait {
+        width: 33%;
+      }
       
       @include for-phone-only {
         width: 49%;
@@ -30,19 +33,22 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         transition: 0.3s;
         border-radius: 5px;
-        height: 200px;
+        min-height: 200px;
         margin: 16px;
         padding: 16px;
-        @include for-phone-only {
-          height: 130px;
-          margin: 8px;
-          padding: 16px 8px 8px;
-        }
+
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-
+        @include for-tablet-portrait {
+          min-height: 150px;
+          margin: 8px;
+        }
+        @include for-phone-only {
+          min-height: 120px;
+          padding: 16px 8px 8px;
+        }
         &:hover {
           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         }
@@ -54,7 +60,11 @@
         .rent__logo {
           width: 50%;
           margin-bottom:16px;
+          @include for-tablet-portrait {
+            width: 40%;
+          }
           @include for-phone-only {
+            width: 40%;
             margin-bottom: 8px;
           }
         }
@@ -76,7 +86,7 @@
           color: #4b4a4a;
           text-align: center;
           @include for-phone-only {
-            font-size: 8px;
+            font-size: 12px;
             margin-bottom: 8px;
           }
         }
