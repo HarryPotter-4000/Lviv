@@ -13,7 +13,7 @@
 /* вид текста label при активном переключателе */
 
 .hide:checked + label h3 {
-  color: #cc0001;
+  color: #d67d08;
   margin-bottom: 8px;
   border-bottom: 0;
 }
@@ -42,12 +42,12 @@ to { opacity: 1 }
 to { opacity: 1 }   
 }
 .hide + label:before {
-    background-color: grey;
-    color: #fff;
+    /* background-color: grey; */
+    color: grey;
     content: "\002B";
     display: block;
     float: left;
-    font-size: 18px; 
+    font-size: 20px; 
     font-weight: bold;
     height: 16px;
     line-height: 16px;
@@ -60,5 +60,6 @@ to { opacity: 1 }
 }
 .hide:checked + label:before {
     content: "\2212";
-    background-color: #cc0001;
+    color: #d67d08;
+    /* background-color: #d67d08; */
 }

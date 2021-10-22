@@ -998,12 +998,12 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-family: Golos;
   font-size: 12px;
   font-weight: 700;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
 }
 .legalisation__section h5 span {
   color: #a326f7;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .legalisation__section .demo .translate .legalisation__translate {
@@ -1019,9 +1019,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .translate ul li {
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
@@ -1035,7 +1035,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .apostil h4 span {
   color: #a326f7;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .legalisation__section .demo .apostil .legalisation__text {
@@ -1051,9 +1051,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .apostil ul li {
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
@@ -1105,9 +1105,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .residence ul li {
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
@@ -1132,7 +1132,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .quotas h4 span {
   color: #a326f7;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .legalisation__section .demo .quotas h6 {
@@ -1145,18 +1145,18 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .quotas .legalisation__text {
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
 .legalisation__section .demo .quotas .list {
   list-style: decimal;
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
   padding-left: 0;
@@ -1216,9 +1216,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .legalisation__section .demo .auto ol li {
   list-style: decimal inside;
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
