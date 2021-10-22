@@ -1,51 +1,12 @@
-$color_text: #4b4a4a;
-%h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
-}
-%h2 {
-    color: $color_text;
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-}
-%h3 {
-    font-family: Golos;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 21px;
-    color: $color_text;
-}
-%h4 {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: $color_text;
-}
-%BodyM {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: $color_text;
-}
-%Text {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-}
-
 .entry__section {
-    padding: 116px 16px 16px;
+    padding: 100px 16px 16px;
 
     h2 {
-        @extend %h2;
+        color: #4b4a4a;
+        font-family: Golos;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 27px;
         margin-bottom: 16px;
 
         @include for-phone-only {
@@ -53,32 +14,19 @@ $color_text: #4b4a4a;
             line-height: 29px;
         }
     }
-    // .appartment__link {
-    //     .appartment__item {
-    //         margin-bottom: 16px;
-            
-    //         .link {
-    //             @extend %BodyM;
-    //             i {
-    //                 font-size: 24px;
-    //                 margin-right: 8px;
-    //             }
-    //         }
-    //     }
-    // }
     h3 {
-        @extend %h4;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #4b4a4a;
+        margin: 16px 0;
     }
     .links {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         .entry__link {
-            color: $color_text;
-            text-decoration: none;
-            @extend %Text;
             margin-bottom: 16px;
             i {
                 margin-right: 8px;
@@ -89,26 +37,38 @@ $color_text: #4b4a4a;
     }
     
     h4 {
-        @extend %h4;
-        margin-top: 24px;
-        margin-bottom: 16px;
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #4b4a4a;
+        margin: 16px 0;
     }
     h5 {
-        @extend %BodyM;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #4b4a4a;
+        margin: 16px 0;
     }
     p {
-        @extend %Text;
-        margin-bottom: 16px;
-        max-width: 600px;
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #4b4a4a;
+        margin-bottom: 8px;
     }
     ol {
         list-style: inside decimal;
         li {
-            @extend %Text;
-        margin-bottom: 16px;
-        max-width: 600px;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            color: #4b4a4a;
+            margin-bottom: 16px;
         }
     }
 

@@ -9,22 +9,7 @@
     @content;
   }
 }
-$color_text: #4b4a4a;
-%h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: $color_text;
-}
 
-%h2 {
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-  color: $color_text;
-}
 .container {
   .title__section {
     margin: 134px 0 50px;
@@ -37,11 +22,19 @@ $color_text: #4b4a4a;
       margin: 100px 0 32px;
     }
     h2 {
-      @extend %h2;
+      font-family: Golos;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 27px;
+      color: #4b4a4a;
     }
 
     h1 {
-      @extend %h1;
+      font-family: Golos;
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 43px;
+      color: #4b4a4a;
     }
   }
   .carousel {

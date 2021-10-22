@@ -1,56 +1,21 @@
-$color_text: #4b4a4a;
-%h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
-}
-%h2 {
-    color: $color_text;
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-}
-%h3 {
-    font-family: Golos;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 21px;
-    color: $color_text;
-}
-%h4 {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: $color_text;
-}
-%BodyM {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: $color_text;
-}
-%Text {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-}
-
 .about__section {
-    padding: 116px 16px 16px;
+    padding: 100px 16px 16px;
     h2 {
-        @extend %h2;
-        margin-bottom: 16px;
+        color: #4b4a4a;
+        font-family: Golos;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27px;
+        margin-bottom: 8px;
         text-align: left;
     }
     h1 {
-        @extend %h2;
-        margin-bottom: 48px;
+        color: #4b4a4a;
+        font-family: Golos;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27px;
+        margin-bottom: 36px;
         text-align: left;
     }
     .item {
@@ -62,21 +27,33 @@ $color_text: #4b4a4a;
 
             i {
                 font-size: 24px;
-                color: $color_text;
+                color: #4b4a4a;
                 margin-right: 16px
             }
             h3 {
-                @extend %h3;
+                font-family: Golos;
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 21px;
+                color: #e21b88;
                 margin-bottom: 16px;
             }
         }
         
         h4 {
-            @extend %h4;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            color: #4b4a4a;
             margin-bottom: 16px;
         }
         p {
-            @extend %Text;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            color: #4b4a4a;
             margin-bottom: 16px;
             span {
                 color: rgb(233, 95, 95);
@@ -87,14 +64,34 @@ $color_text: #4b4a4a;
         list-style: inside decimal;
         margin-top: 16px;
         li {
-            @extend %Text;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            color: #4b4a4a;
             margin-bottom: 16px;
             max-width: 600px;
+        }
+    }
+    ul {
+        li {
+            list-style: inside;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            color: #4b4a4a;
+            margin-bottom: 8px;
+            span {
+                color: #e21b88;
+                margin-bottom: 8px;
+            }
         }
     }
     
     h3 {
         font-family: Golos;
+        color: #4b4a4a;
         font-size: 21px;
         font-weight: 500;
         line-height: 21px;

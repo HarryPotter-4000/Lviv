@@ -1,47 +1,5 @@
-$color_text: #4b4a4a;
-%h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
-}
-%h2 {
-    color: $color_text;
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-}
-%h3 {
-    font-family: Golos;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 21px;
-    color: $color_text;
-}
-%h4 {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: $color_text;
-}
-%BodyM {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: $color_text;
-}
-%Text {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-}
 .legalisation__section {
-    padding: 116px 16px 16px;
+    padding: 100px 16px 16px;
     h2 {
         color: #4b4a4a;
         font-family: Golos;
@@ -223,9 +181,9 @@ $color_text: #4b4a4a;
             }
             .legalisation__text {
                 font-family: Golos;
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 500;
-                line-height: 19px;
+                line-height: 16px;
                 color: #4b4a4a;
                 margin-bottom: 8px;
             }
@@ -247,9 +205,9 @@ $color_text: #4b4a4a;
                 li {
                     list-style: decimal inside;
                     font-family: Golos;
-                    font-size: 14px;
+                    font-size: 16px;
                     font-weight: 500;
-                    line-height: 14px;
+                    line-height: 19px;
                     color: #4b4a4a;
                     margin-bottom: 8px;
                     span {
@@ -326,6 +284,23 @@ $color_text: #4b4a4a;
                 line-height: 19px;
                 color: #cc0001;
                 margin-bottom: 16px;
+            }
+        }
+        .laws {
+            ol {
+                li {
+                    list-style: decimal inside;
+                    font-family: Golos;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19px;
+                    color: #4b4a4a;
+                    margin-bottom: 8px;
+                    span {
+                        color: #e21b88;
+                        margin-bottom: 8px;
+                    }
+                }
             }
         }
     }

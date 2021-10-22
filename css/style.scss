@@ -8,7 +8,7 @@
 @import "_money.scss";
 @import "_fop.scss";
 @import "_lviv.scss";
-// @import "_newsactive.scss";
+@import "_viza.scss";
 // @import "_education.scss";
 // @import "_educationfilter.scss";
 // @import "_educationsort.scss";
@@ -29,84 +29,6 @@
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-// $color_background: #FFFFEC;
-// $color_filter-text: #FFFFEC;
-$color_text: #4b4a4a;
-// $color_blue20: #E6F0ED;
-// $color_blue50: #82B3F2;
-// $color_green20: #DFEFCE;
-// $color_green50: #5FAD56;
-// $color_yellow20: #FFF7D1;
-// $color_yellow50: #FED766;
-// $color_red20: #F3C6B2;
-// $color_red50: #DD614A;
-
-%h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
-}
-
-%h2 {
-    color: #4b4a4a;
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-}
-
-%h3 {
-    font-family: Golos;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 21px;
-    color: #4b4a4a;
-}
-%h4 {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: #4b4a4a;
-}
-%BodyM {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: #4b4a4a;
-}
-%BodySMBold {
-    font-family: Golos;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 14px;
-    color: #4b4a4a;
-}
-%BodySM {
-    font-family: Golos;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    color: #4b4a4a;
-}
-%Text {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: #4b4a4a;
-}
-%HeadingsXS {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: #4b4a4a;
 }
 
 @mixin for-phone-only {

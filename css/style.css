@@ -612,8 +612,8 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
   left: -100%;
   width: 100%;
   height: 100%;
-  margin-top: 86px;
-  padding: 24px 0;
+  margin-top: 70px;
+  padding: 16px 0;
   list-style: none;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
@@ -627,7 +627,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
 }
 header .nav__container .navigation__mobile .navigation-mobile__box .navigation-mobile__item {
   display: block;
-  padding: 24px;
+  padding: 16px 24px;
   color: #2c2b2b;
   font-size: 18px;
   font-weight: 600;
@@ -656,22 +656,6 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .rent__section h2, .container .title__section h2 {
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-  color: #4b4a4a;
-}
-
 .container .title__section {
   margin: 134px 0 50px;
   padding: 16px;
@@ -693,6 +677,20 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   .container .title__section {
     margin: 100px 0 32px;
   }
+}
+.container .title__section h2 {
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #4b4a4a;
+}
+.container .title__section h1 {
+  font-family: Golos;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  color: #4b4a4a;
 }
 .container .carousel .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
@@ -776,34 +774,15 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin: 16px 0 8px;
 }
 
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
+.rent__section {
+  padding: 100px 16px 16px;
 }
-
-.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .rent__section h2, .container .title__section h2 {
+.rent__section h2 {
+  color: #4b4a4a;
   font-family: Golos;
   font-size: 27px;
   font-weight: 700;
   line-height: 27px;
-  color: #4b4a4a;
-}
-
-.money__section ul li, .entry__section h5 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.rent__section {
-  padding: 116px 16px 16px;
-}
-.rent__section h2 {
   margin-bottom: 24px;
 }
 @media (max-width: 599px) {
@@ -909,57 +888,15 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
+.entry__section {
+  padding: 100px 16px 16px;
 }
-
-.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .entry__section h2, .container .title__section h2, .rent__section h2 {
+.entry__section h2 {
   color: #4b4a4a;
   font-family: Golos;
   font-size: 27px;
   font-weight: 700;
   line-height: 27px;
-}
-
-.about__section .item .title h3, .money__section h3 {
-  font-family: Golos;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 21px;
-  color: #4b4a4a;
-}
-
-.about__section .item h4, .entry__section h4, .entry__section h3 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.money__section ul li, .entry__section h5 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section ol li, .entry__section p, .entry__section .links .entry__link {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-}
-
-.entry__section {
-  padding: 116px 16px 16px;
-}
-.entry__section h2 {
   margin-bottom: 16px;
 }
 @media (max-width: 599px) {
@@ -969,8 +906,12 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .entry__section h3 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
 }
 .entry__section .links {
   display: -webkit-box;
@@ -985,8 +926,6 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
           justify-content: flex-start;
 }
 .entry__section .links .entry__link {
-  color: #4b4a4a;
-  text-decoration: none;
   margin-bottom: 16px;
 }
 .entry__section .links .entry__link i {
@@ -995,74 +934,43 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #5ea4dd;
 }
 .entry__section h4 {
-  margin-top: 24px;
-  margin-bottom: 16px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
 }
 .entry__section h5 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
 }
 .entry__section p {
-  margin-bottom: 16px;
-  max-width: 600px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
 }
 .entry__section ol {
   list-style: inside decimal;
 }
 .entry__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
-  max-width: 600px;
-}
-
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .container .title__section h2, .rent__section h2, .entry__section h2 {
-  color: #4b4a4a;
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.about__section .item .title h3, .money__section h3 {
-  font-family: Golos;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 21px;
-  color: #4b4a4a;
-}
-
-.about__section .item h4, .entry__section h3, .entry__section h4 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.money__section ul li, .entry__section h5 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
 }
 
 .legalisation__section {
-  padding: 116px 16px 16px;
+  padding: 100px 16px 16px;
 }
 .legalisation__section h2 {
   color: #4b4a4a;
@@ -1237,9 +1145,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .quotas .legalisation__text {
   font-family: Golos;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 16px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
@@ -1260,9 +1168,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .legalisation__section .demo .quotas ol li {
   list-style: decimal inside;
   font-family: Golos;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 19px;
   color: #4b4a4a;
   margin-bottom: 8px;
 }
@@ -1333,220 +1241,202 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #cc0001;
   margin-bottom: 16px;
 }
-
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.about__section h1, .about__section h2, .fop__section h2, .money__section h2, .container .title__section h2, .rent__section h2, .entry__section h2 {
-  color: #4b4a4a;
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.about__section .item .title h3, .money__section h3 {
-  font-family: Golos;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 21px;
-  color: #4b4a4a;
-}
-
-.about__section .item h4, .entry__section h3, .entry__section h4 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.money__section ul li, .entry__section h5 {
+.legalisation__section .demo .laws ol li {
+  list-style: decimal inside;
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   color: #4b4a4a;
+  margin-bottom: 8px;
 }
-
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .money__section ul ol li, .money__section p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
+.legalisation__section .demo .laws ol li span {
+  color: #e21b88;
+  margin-bottom: 8px;
 }
 
 .money__section {
-  padding: 116px 16px 16px;
+  padding: 100px 16px 16px;
 }
 .money__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 27px;
   margin-bottom: 16px;
-}
-@media (max-width: 599px) {
-  .money__section h2 {
-    font-size: 24px;
-    line-height: 29px;
-  }
+  margin-bottom: 16px;
 }
 .money__section p {
-  margin-bottom: 16px;
-  max-width: 600px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 8px;
+  color: #4b4a4a;
+}
+.money__section p span {
+  color: #cc0001;
 }
 .money__section h3 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 27px;
   margin-bottom: 16px;
+}
+.money__section h3 span {
+  color: #e21b88;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 .money__section ul {
   list-style: inside;
 }
 .money__section ul li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
-}
-.money__section ul ol {
-  list-style: inside decimal;
-  margin-top: 16px;
 }
 .money__section ul ol li {
+  list-style: decimal inside;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.money__section ul ol li span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.money__section h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
-  max-width: 600px;
 }
-
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.about__section h1, .about__section h2, .fop__section h2, .container .title__section h2, .rent__section h2, .entry__section h2, .money__section h2 {
-  color: #4b4a4a;
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.about__section .item .title h3, .money__section h3 {
-  font-family: Golos;
-  font-size: 21px;
+.money__section h4 span {
+  color: #cc0001;
   font-weight: 500;
-  line-height: 21px;
-  color: #4b4a4a;
 }
-
-.about__section .item h4, .entry__section h3, .entry__section h4 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
+.money__section .links {
+  margin-bottom: 16px;
 }
-
-.entry__section h5, .money__section ul li {
+.money__section ol li {
+  list-style: decimal inside;
   font-family: Golos;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 14px;
   color: #4b4a4a;
+  margin-bottom: 8px;
 }
-
-.about__section ol li, .about__section .item p, .fop__section p, .fop__section ol li, .entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
+.money__section ol li span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
+.money__section ol ul {
+  padding-left: 16px;
+  list-style: square;
+}
+.money__section ol ul li {
+  list-style: inside;
+  color: #4b4a4a;
 }
 
 .fop__section {
-  padding: 116px 16px 16px;
+  padding: 100px 16px 16px;
 }
 .fop__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 27px;
   margin-bottom: 16px;
 }
 .fop__section h2 span {
-  color: #e95f5f;
+  color: #a326f7;
+  font-size: 16px;
+  font-weight: 500;
 }
 .fop__section ol {
   list-style: inside decimal;
   margin-top: 16px;
 }
 .fop__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
   margin-bottom: 16px;
-  max-width: 600px;
+  color: #4b4a4a;
+  margin-bottom: 16px;
 }
 .fop__section p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
   margin-bottom: 16px;
+  color: #4b4a4a;
 }
 .fop__section h3 {
   font-family: Golos;
   font-size: 21px;
   font-weight: 500;
   line-height: 21px;
-  color: #e95f5f;
+  color: #cc0001;
+  margin-bottom: 8px;
+}
+.fop__section h3 span {
+  color: #a326f7;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fop__section h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+}
+.fop__section h4 span {
+  color: #a326f7;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fop__section .links {
   margin-bottom: 16px;
-}
-
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.about__section h1, .about__section h2, .container .title__section h2, .rent__section h2, .entry__section h2, .money__section h2, .fop__section h2 {
-  color: #4b4a4a;
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.about__section .item .title h3, .money__section h3 {
-  font-family: Golos;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 21px;
-  color: #4b4a4a;
-}
-
-.about__section .item h4, .entry__section h3, .entry__section h4 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.entry__section h5, .money__section ul li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.about__section ol li, .about__section .item p, .entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
 }
 
 .about__section {
-  padding: 116px 16px 16px;
+  padding: 100px 16px 16px;
 }
 .about__section h2 {
-  margin-bottom: 16px;
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 8px;
   text-align: left;
 }
 .about__section h1 {
-  margin-bottom: 48px;
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 36px;
   text-align: left;
 }
 .about__section .item {
@@ -1570,12 +1460,27 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-right: 16px;
 }
 .about__section .item .title h3 {
+  font-family: Golos;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #e21b88;
   margin-bottom: 16px;
 }
 .about__section .item h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 .about__section .item p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 .about__section .item p span {
@@ -1586,15 +1491,115 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-top: 16px;
 }
 .about__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
   max-width: 600px;
 }
+.about__section ul li {
+  list-style: inside;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.about__section ul li span {
+  color: #e21b88;
+  margin-bottom: 8px;
+}
 .about__section h3 {
   font-family: Golos;
+  color: #4b4a4a;
   font-size: 21px;
   font-weight: 500;
   line-height: 21px;
   color: #e95f5f;
+  margin-bottom: 16px;
+}
+
+.viza__section {
+  padding: 100px 16px 16px;
+}
+.viza__section h2 {
+  color: #4b4a4a;
+  font-family: Golos;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+@media (max-width: 599px) {
+  .viza__section h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+.viza__section h3 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
+}
+.viza__section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.viza__section .links .entry__link {
+  margin-bottom: 16px;
+}
+.viza__section .links .entry__link i {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #5ea4dd;
+}
+.viza__section h4 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
+}
+.viza__section h5 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
+}
+.viza__section p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.viza__section ol {
+  list-style: inside decimal;
+}
+.viza__section ol li {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 
@@ -1608,54 +1613,6 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
           box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
-  color: #4b4a4a;
-}
-
-.container .title__section h2, .rent__section h2, .entry__section h2, .money__section h2, .fop__section h2, .about__section h2, .about__section h1 {
-  color: #4b4a4a;
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.money__section h3, .about__section .item .title h3 {
-  font-family: Golos;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #4b4a4a;
-}
-
-.entry__section h3, .entry__section h4, .about__section .item h4 {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.entry__section h5, .money__section ul li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
-}
-
-.entry__section .links .entry__link, .entry__section p, .entry__section ol li, .money__section p, .money__section ul ol li, .fop__section ol li, .fop__section p, .about__section .item p, .about__section ol li {
-  font-family: Golos;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4b4a4a;
 }
 
 a:focus {

@@ -1,80 +1,100 @@
-$color_text: #4b4a4a;
-%h1 {
-    font-family: Golos;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 43px;
-    color: $color_text;
-}
-%h2 {
-    color: $color_text;
-    font-family: Golos;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 27px;
-}
-%h3 {
-    font-family: Golos;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 21px;
-    color: $color_text;
-}
-%h4 {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    color: $color_text;
-}
-%BodyM {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: $color_text;
-}
-%Text {
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-}
-
 .money__section {
-    padding: 116px 16px 16px;
+    padding: 100px 16px 16px;
 
     h2 {
-        @extend %h2;
+        color: #4b4a4a;
+        font-family: Golos;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 27px;
         margin-bottom: 16px;
-
-        @include for-phone-only {
-            font-size: 24px;
-            line-height: 29px;
-        }
+        margin-bottom: 16px;
     }
     p {
-        @extend %Text;
-        margin-bottom: 16px;
-        max-width: 600px;
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        margin-bottom: 8px;
+        color: #4b4a4a;
+        span {
+            color: #cc0001;
+        }
     }
     h3 {
-        @extend %h3;
+        color: #4b4a4a;
+        font-family: Golos;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 27px;
         margin-bottom: 16px;
+        span {
+            color: #e21b88;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
     }
     ul {
         list-style: inside;
         li {
-            @extend %BodyM;
+            font-family: Golos;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            color: #4b4a4a;
             margin-bottom: 16px;
         }
         ol {
-            list-style: inside decimal;
-            margin-top: 16px;
             li {
-                @extend %Text;
-                margin-bottom: 16px;
-                max-width: 600px;
+                list-style: decimal inside;
+                font-family: Golos;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 14px;
+                color: #4b4a4a;
+                margin-bottom: 8px;
+                span {
+                    color: #e21b88;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+    h4 {
+        font-family: Golos;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #4b4a4a;
+        margin-bottom: 16px;
+        span {
+            color: #cc0001;
+            font-weight: 500;
+        }
+    }
+    .links {
+        margin-bottom: 16px;
+    }
+    ol {
+        li {
+            list-style: decimal inside;
+            font-family: Golos;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            color: #4b4a4a;
+            margin-bottom: 8px;
+            span {
+                color: #e21b88;
+                margin-bottom: 8px;
+            }
+        }
+        ul {
+            padding-left: 16px;
+            list-style:square;
+            li {
+                list-style:inside;
+                color: #4b4a4a;
             }
         }
     }
