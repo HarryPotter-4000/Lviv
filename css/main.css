@@ -13,7 +13,7 @@
 /* вид текста label при активном переключателе */
 
 .hide:checked + label h3 {
-  color: #d67d08;
+  color: #cc0001;
   margin-bottom: 8px;
   border-bottom: 0;
 }

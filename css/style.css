@@ -489,7 +489,7 @@ header .nav__container .navigation__home .navigation__img {
 }
 @media (max-width: 599px) {
   header .nav__container .navigation__home {
-    width: 40%;
+    width: 39%;
   }
 }
 header .nav__container .navigation__menu {
@@ -1079,6 +1079,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-weight: 500;
   line-height: 21px;
   color: #4b4a4a;
+  margin-left: 26px;
 }
 .legalisation__section h4 {
   font-family: Golos;
@@ -1123,7 +1124,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  color: #cc0001;
+  color: #e21b88;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .apostil h4 span {
@@ -1179,7 +1180,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  color: #cc0001;
+  color: #e21b88;
   margin: 16px 0;
 }
 .legalisation__section .demo .residence .legalisation__text {
@@ -1213,7 +1214,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: #e21b88;
+  color: #a326f7;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .quotas h4 {
@@ -1332,8 +1333,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: #cc0001;
+  color: #e21b88;
   margin-bottom: 16px;
+}
+.legalisation__section .demo .auto h4 span {
+  color: #a326f7;
 }
 .legalisation__section .demo .laws ol li {
   list-style: decimal inside;
