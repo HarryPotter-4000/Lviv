@@ -6,7 +6,7 @@
         font-size: 24px;
         font-weight: 700;
         line-height: 24px;
-        margin: 0 0 24px 16px;
+        margin-bottom:24px;
     }
     h3 {
         font-family: Golos;
@@ -60,7 +60,7 @@
             h4 {
                 font-family: Golos;
                 font-size: 16px;
-                font-weight: 700;
+                font-weight: 600;
                 line-height: 19px;
                 color: #cc0001;
                 margin-bottom: 16px;
@@ -118,7 +118,7 @@
             h4 {
                 font-family: Golos;
                 font-size: 16px;
-                font-weight: 700;
+                font-weight: 600;
                 line-height: 19px;
                 color: #cc0001;
                 margin: 16px 0;
@@ -144,6 +144,7 @@
                     color: #4b4a4a;
                     margin-bottom: 8px;
                     span {
+                        font-weight: 600;
                         color: #e21b88;
                     }
                 }

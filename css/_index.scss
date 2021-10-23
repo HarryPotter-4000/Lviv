@@ -3,10 +3,9 @@
     @content;
   }
 }
-
 @mixin for-tablet-portrait {
-  @media (max-width: 768px) {
-    @content;
+  @media (min-width: 599px) and (max-width: 870px) {
+      @content;
   }
 }
 
@@ -27,6 +26,10 @@
       font-weight: 700;
       line-height: 27px;
       color: #4b4a4a;
+      @include for-phone-only {
+        font-size: 24px;
+        font-weight: 600;
+      }
     }
 
     h1 {
@@ -35,6 +38,10 @@
       font-weight: 900;
       line-height: 43px;
       color: #4b4a4a;
+      @include for-phone-only {
+        font-size: 32px;
+        font-weight: 600;
+      }
     }
   }
   .carousel {
@@ -62,21 +69,19 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      @include for-phone-only {
-        justify-content: flex-start;
-      }
 
       @include for-tablet-portrait {
         background-image: url(../img/Slider-1-background-phone.jpg);
-        background-position: right;
+        background-position: bottom;
         padding: 16px;
         min-height: 300px;
       }
       @include for-phone-only {
+        justify-content: flex-start;
         background-image: url(../img/Slider-1-background-phone.jpg);
         background-position: right;
         background-size: cover;
-        padding: 16px;
+        // padding: 16px;
         min-height: 250px;
       }
       h3 {
@@ -84,9 +89,15 @@
         font-weight: 700;
         line-height: 34px;
         color: #4b4a4a;;
-        margin: 24px 0 8px 150px;
+        margin-left: 100px;
         span {
+          font-weight: 600;
           color: #cc0001;
+        }
+        @include for-tablet-portrait {
+          font-size: 21px;
+          line-height: 24px;
+          margin: 0 0 16px 80px;
         }
         @include for-phone-only {
           font-size: 21px;
@@ -99,9 +110,15 @@
         font-weight: 700;
         line-height: 27px;
         color: #4b4a4a;
-        margin: 0 0 0 150px;
+        margin: 16px 0 0 100px;
         span {
+          font-weight: 600;
           color: #cc0001;
+        }
+        @include for-tablet-portrait {
+          font-size: 21px;
+          line-height: 24px;
+          margin: 0 0 16px 80px;
         }
         @include for-phone-only {
           font-size: 16px;

@@ -1,3 +1,13 @@
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+@mixin for-tablet-portrait {
+    @media (min-width: 599px) and (max-width: 870px) {
+        @content;
+    }
+}
 .entry__section {
     padding: 100px 16px 16px;
     h2 {
@@ -11,9 +21,9 @@
     h3 {
         font-family: Golos;
         font-size: 19px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 19px;
-        color: #4b4a4a;
+        color: #e21b88;
         margin: 16px 0;
     }
     h4 {

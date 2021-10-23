@@ -1,3 +1,13 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+      @content;
+  }
+}
+@mixin for-tablet-portrait {
+  @media (min-width: 599px) and (max-width: 870px) {
+      @content;
+  }
+}
 .rent__section {
   padding: 100px 16px 16px;
   h2 {
@@ -33,7 +43,7 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         transition: 0.3s;
         border-radius: 5px;
-        min-height: 200px;
+        height: 150px;
         margin: 16px;
         padding: 16px;
 
@@ -42,37 +52,36 @@
         justify-content: flex-start;
         align-items: center;
         @include for-tablet-portrait {
-          min-height: 150px;
           margin: 8px;
         }
         @include for-phone-only {
-          min-height: 120px;
           padding: 16px 8px 8px;
         }
         &:hover {
           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         }
         
-        // @include for-tablet-portrait {
-        //     width: 27%;
-        //     height: 120px;
-        // }
+        i {
+          font-size: 54px;
+          color: #880a77;
+          margin-bottom:8px;
+          margin:16px 0 8px;
+        }
+        .fa-telegram {
+          color: #3390ec;
+        }
+        .fa-facebook-square {
+          color: #0674e7;
+        }
         .rent__logo {
-          width: 50%;
-          margin-bottom:16px;
-          @include for-tablet-portrait {
-            width: 40%;
-          }
-          @include for-phone-only {
-            width: 40%;
-            margin-bottom: 8px;
-          }
+          width: 68%;
+          margin:16px;
         }
         .rent__title {
           font-family: Golos;
           font-size: 14px;
-          font-weight: 400;
-          color: #4b4a4a;
+          font-weight: 500;
+          color: #e21b88;
           margin-bottom: 16px;
           text-align: center;
           @include for-phone-only {

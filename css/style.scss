@@ -36,12 +36,16 @@
         @content;
     }
 }
-
 @mixin for-tablet-portrait {
-    @media (max-width: 870px) {
+    @media (min-width: 599px) and (max-width: 870px) {
         @content;
     }
 }
+// @mixin for-tablet-portrait {
+//     @media (min-width: 600px) and (orientation:landscape) and (max-width: 870px) {
+//         @content;
+//     }
+// }
 
 a:focus {
     outline: none;
