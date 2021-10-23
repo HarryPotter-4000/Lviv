@@ -931,9 +931,9 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -965,14 +965,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #0674e7;
 }
 .rent__section .rent__box .rent__link .rent__item .rent__logo {
-  width: 68%;
-  margin: 16px;
+  width: 52%;
+  margin: 12px;
 }
 .rent__section .rent__box .rent__link .rent__item .rent__title {
   font-family: Golos;
   font-size: 14px;
   font-weight: 500;
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -1011,7 +1011,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 19px;
   font-weight: 600;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin: 16px 0;
 }
 .entry__section h4 {
@@ -1079,7 +1079,6 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-weight: 500;
   line-height: 21px;
   color: #4b4a4a;
-  margin-left: 26px;
 }
 .legalisation__section h4 {
   font-family: Golos;
@@ -1087,6 +1086,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-weight: 500;
   line-height: 19px;
   color: #4b4a4a;
+  margin-bottom: 16px;
 }
 .legalisation__section h5 {
   font-family: Golos;
@@ -1094,11 +1094,12 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-weight: 700;
   line-height: 19px;
   color: #4b4a4a;
+  margin-bottom: 16px;
 }
 .legalisation__section h5 span {
-  color: #a326f7;
+  color: #e21b88;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .legalisation__section .demo .translate .legalisation__translate {
   font-family: Golos;
@@ -1124,13 +1125,13 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .apostil h4 span {
-  color: #a326f7;
-  font-size: 16px;
-  font-weight: 500;
+  color: #e21b88;
+  font-size: 14px;
+  font-weight: 600;
 }
 .legalisation__section .demo .apostil .legalisation__text {
   font-family: Golos;
@@ -1180,7 +1181,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin: 16px 0;
 }
 .legalisation__section .demo .residence .legalisation__text {
@@ -1193,6 +1194,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .residence .legalisation__text span {
   color: #e21b88;
+  font-weight: 600;
 }
 .legalisation__section .demo .residence ul {
   list-style: inside;
@@ -1207,14 +1209,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .legalisation__section .demo .residence ul li span {
   font-weight: 600;
-  color: #e21b88;
+  color: #4b4a4a;
 }
 .legalisation__section .demo .residence h6 {
   font-family: Golos;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 19px;
-  color: #a326f7;
+  color: #e21b88;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .quotas h4 {
@@ -1226,16 +1228,16 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-bottom: 16px;
 }
 .legalisation__section .demo .quotas h4 span {
-  color: #a326f7;
+  color: #e21b88;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .legalisation__section .demo .quotas h6 {
   font-family: Golos;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .quotas .legalisation__text {
@@ -1257,7 +1259,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   padding-left: 0;
 }
 .legalisation__section .demo .quotas .list span {
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 8px;
 }
 .legalisation__section .demo .quotas ol li {
@@ -1270,7 +1272,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-bottom: 8px;
 }
 .legalisation__section .demo .quotas ol li span {
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 8px;
 }
 .legalisation__section .demo .quotas ol ul {
@@ -1305,7 +1307,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-bottom: 8px;
 }
 .legalisation__section .demo .auto .legalisation__text span {
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 8px;
 }
 .legalisation__section .demo .auto ol li {
@@ -1333,11 +1335,13 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 16px;
 }
 .legalisation__section .demo .auto h4 span {
-  color: #a326f7;
+  color: #e21b88;
+  font-weight: 600;
+  font-size: 14px;
 }
 .legalisation__section .demo .laws ol li {
   list-style: decimal inside;
@@ -1349,7 +1353,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin-bottom: 8px;
 }
 .legalisation__section .demo .laws ol li span {
-  color: #e21b88;
+  color: #4b4a4a;
   margin-bottom: 8px;
 }
 

@@ -49,7 +49,7 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         @include for-tablet-portrait {
           margin: 8px;
@@ -74,14 +74,14 @@
           color: #0674e7;
         }
         .rent__logo {
-          width: 68%;
-          margin:16px;
+          width: 52%;
+          margin:12px;
         }
         .rent__title {
           font-family: Golos;
           font-size: 14px;
           font-weight: 500;
-          color: #e21b88;
+          color: #4b4a4a;
           margin-bottom: 16px;
           text-align: center;
           @include for-phone-only {

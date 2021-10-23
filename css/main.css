@@ -13,9 +13,9 @@
 /* вид текста label при активном переключателе */
 
 .hide:checked + label h3 {
-  color: #cc0001;
-  margin-bottom: 8px;
-  border-bottom: 0;
+    color: #cc0001;
+    margin-bottom: 16px;
+    border-bottom: 0;
 }
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
@@ -51,7 +51,7 @@ to { opacity: 1 }
     font-weight: bold;
     height: 16px;
     line-height: 16px;
-    margin: 3px 5px;
+    margin: 3px 5px 3px 0;
     text-align: center;
     width: 16px;
     -webkit-border-radius: 10%;
@@ -60,6 +60,6 @@ to { opacity: 1 }
 }
 .hide:checked + label:before {
     content: "\2212";
-    color: #d67d08;
+    color: #cc0001;
     /* background-color: #d67d08; */
 }
