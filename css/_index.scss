@@ -11,7 +11,7 @@
 
 .container {
   .title__section {
-    margin: 134px 0 50px;
+    margin: 100px 0 50px;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -21,11 +21,11 @@
       margin: 100px 0 32px;
     }
     h2 {
-      font-family: Golos;
-      font-size: 27px;
-      font-weight: 700;
-      line-height: 27px;
       color: #4b4a4a;
+      font-family: Raleway;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 24px;
       @include for-phone-only {
         font-size: 24px;
         font-weight: 600;
@@ -33,11 +33,11 @@
     }
 
     h1 {
-      font-family: Golos;
-      font-size: 36px;
-      font-weight: 900;
-      line-height: 43px;
       color: #4b4a4a;
+      font-family: Raleway;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 36px;
       @include for-phone-only {
         font-size: 32px;
         font-weight: 600;
@@ -85,10 +85,11 @@
         min-height: 250px;
       }
       h3 {
-        font-size: 27px;
+        color: #4b4a4a;
+        font-family: Raleway;
+        font-size: 24px;
         font-weight: 700;
-        line-height: 34px;
-        color: #4b4a4a;;
+        line-height: 27px;
         margin-left: 100px;
         span {
           font-weight: 600;
@@ -106,10 +107,11 @@
         }
       }
       .text {
+        color: #4b4a4a;
+        font-family: Raleway;
         font-size: 21px;
         font-weight: 700;
-        line-height: 27px;
-        color: #4b4a4a;
+        line-height: 24px;
         margin: 16px 0 0 100px;
         span {
           font-weight: 600;
@@ -152,6 +154,7 @@
         min-height: 250px;
       }
       h3 {
+        font-family: Raleway;
         font-size: 24px;
         font-weight: 700;
         line-height: 34px;
@@ -159,7 +162,8 @@
         margin: 32px 0 8px;
       }
       .text {
-        font-size: 16px;
+        font-family: Raleway;
+        font-size: 19px;
         font-weight: 500;
         line-height: 21px;
         color: white;

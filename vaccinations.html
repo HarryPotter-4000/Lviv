@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -21,7 +22,7 @@
                 <li><a href="rent.html">Аренда</a></li>
                 <li><a href="legalisation.html">ВНЖ</a></li>
                 <li><a href="fop.html">ФОП</a></li>
-                <li><a href="viza.html">Визы</a></li>
+                <li><a href="visas.html">Визы</a></li>
                 <li><a href="money.html">Банки</a></li>
                 <li><a href="lviv.html">Львов</a></li>
                 <li><a href="vaccinations.html" class="active">Вакцинация</a></li>
@@ -38,7 +39,7 @@
                     <li><a class="navigation-mobile__item" href="rent.html">Аренда</a></li>
                     <li><a class="navigation-mobile__item" href="legalisation.html">ВНЖ</a></li>
                     <li><a class="navigation-mobile__item" href="fop.html">ФОП</a></li>
-                    <li><a class="navigation-mobile__item" href="viza.html">Визы</a></li>
+                    <li><a class="navigation-mobile__item" href="visas.html">Визы</a></li>
                     <li><a class="navigation-mobile__item" href="money.html">Банки</a></li>
                     <li><a class="navigation-mobile__item" href="lviv.html">Львов</a></li>
                     <li><a class="navigation-mobile__item" href="vaccinations.html">Вакцинация</a></li>
@@ -46,19 +47,20 @@
             </div>
         </div>
     </header>
-    <section class="container vaccinations__section">
+    <section class="container entry__section">
         <h2>Вакцинация в Украине</h2>
         <h3>Кто может вакцинироваться:</h3>
         <p>Все находящиеся на территории Украины, разница лишь в том, какой сертификат о вакцинации можно получить.</p>
-        <p>Ссылка на закон: Іноземці та особи без громадянства можуть вакцинуватися від COVID-19 в Україні<br>
-            <a href="https://moz.gov.ua/article/news/inozemci-ta-osobi-bez-gromadjanstva-mozhut-vakcinuvatisja-vid-covid-19-v-ukraini" target="blank">visitukraine.today</a></p>
-
+        <p>Ссылка на закон: Іноземці та особи без громадянства можуть вакцинуватися від COVID-19 в Україні</p>
+        <div class="links"><a href="https://moz.gov.ua/article/news/inozemci-ta-osobi-bez-gromadjanstva-mozhut-vakcinuvatisja-vid-covid-19-v-ukraini" class="link" target="blank"><i class="fas fa-link"></i>visitukraine.today</a></div>
         <h3>Где вакцинироваться:</h3>
         <p>Точки вакцинации и время работы пунктов можно посмотреть тут, наличие вакцины нужно узнавать по телефону или при обращении в центр.</p>
-        <p>Список пунктів щеплень та центрів масової вакцинації<br>
-            <a href="https://list.covid19.gov.ua/" target="blank">list.covid19.gov.ua - государственный сайт</a>
-            <a href="https://helsi.me/lp/vaccination" target="blank">helsi.me - частный медицинский агрегатор с подробным FAQ на часто задаваемые вопросы о вакцинации, на нем также можно найти ликаря</a>
-        </p>
+        <h4>Список пунктів щеплень та центрів масової вакцинації</h4>
+        <div class="links">
+            <p>Государственный сайт <a href="https://list.covid19.gov.ua/" class="link" target="blank"><i class="fas fa-link"></i>list.covid19.gov.ua</a></p>
+            <p>Частный медицинский агрегатор с подробным FAQ на часто задаваемые вопросы о вакцинации, на нем также можно найти ликаря 
+            <a href="https://helsi.me/lp/vaccination" class="link" target="blank"><i class="fas fa-link"></i>helsi.me</a></p>
+        </div>
         <h3>Виды сертификатов:</h3>
         <ol>
             <li>QR-код - это <span>международного образца</span>, получить можно только через ДИЯ</li>
@@ -71,11 +73,9 @@
         <ol>
             <li>QR-код - <span>международного образца</span>: нужны документы временного нахождения в Украине (ВНЖ/ПНЖ/свидетельство беженца или как то так)
                 <ul>
-                    <li>для этого нужен договор с ликарем который внесет в базу<br>
-                        <a href="https://ehealth.gov.ua/" target="blank">ehealth.gov.ua</a>
+                    <li>для этого нужен договор с ликарем который внесет в базу <a href="https://ehealth.gov.ua/" class="link" target="blank"><i class="fas fa-link"></i>ehealth.gov.ua</a>
                         информацию о вакцинации и, благодаря этому, появится возможность сгенерить QR сертификат в ДИЯ 
-                        <a href="https://diia.gov.ua/services/covid19-sertifikat-pro-vakcinaciyu" target="blank">diia.gov.ua</a><br>
-                        QR сертификат в ДИЯ можно сгенерить только через их веб сайт (в мобильных приложениях пока недоступно)
+                        <a href="https://diia.gov.ua/services/covid19-sertifikat-pro-vakcinaciyu" class="link" target="blank"><i class="fas fa-link"></i>diia.gov.ua</a>. QR сертификат в ДИЯ можно сгенерить только через их веб сайт (в мобильных приложениях пока недоступно)
                     </li>
                 </ul>
             </li>
@@ -84,7 +84,7 @@
             </li>
         </ol>
         <h3>Где найти лікаря:</h3>
-        <p>Тут <a href="https://helsi.me/doctors/lviv" target="blank">helsi.me/doctors</a>, проверенный подписчиками канала medicover.ua</p>
+        <p>Тут <a href="https://helsi.me/doctors/lviv" class="link" target="blank"><i class="fas fa-link"></i>helsi.me/doctors</a>, проверенный подписчиками канала medicover.ua</p>
     </section>
 </body>
 

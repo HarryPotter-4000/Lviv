@@ -661,7 +661,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 
 .container .title__section {
-  margin: 134px 0 50px;
+  margin: 100px 0 50px;
   padding: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,11 +683,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .container .title__section h2 {
-  font-family: Golos;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 27px;
   color: #4b4a4a;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
 }
 @media (max-width: 599px) {
   .container .title__section h2 {
@@ -696,11 +696,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .container .title__section h1 {
-  font-family: Golos;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 43px;
   color: #4b4a4a;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
 }
 @media (max-width: 599px) {
   .container .title__section h1 {
@@ -765,10 +765,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .container .carousel .lessons h3 {
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 34px;
   color: #4b4a4a;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
   margin-left: 100px;
 }
 .container .carousel .lessons h3 span {
@@ -790,10 +791,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .container .carousel .lessons .text {
+  color: #4b4a4a;
+  font-family: Raleway;
   font-size: 21px;
   font-weight: 700;
-  line-height: 27px;
-  color: #4b4a4a;
+  line-height: 24px;
   margin: 16px 0 0 100px;
 }
 .container .carousel .lessons .text span {
@@ -852,6 +854,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .container .carousel .meet h3 {
+  font-family: Raleway;
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
@@ -859,7 +862,8 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin: 32px 0 8px;
 }
 .container .carousel .meet .text {
-  font-size: 16px;
+  font-family: Raleway;
+  font-size: 19px;
   font-weight: 500;
   line-height: 21px;
   color: white;
@@ -998,29 +1002,79 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .entry__section {
   padding: 100px 16px 16px;
 }
-.entry__section h2 {
+.entry__section h1 {
   color: #4b4a4a;
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 24px;
   font-weight: 700;
   line-height: 27px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.entry__section h2 {
+  color: #4b4a4a;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
   margin-bottom: 16px;
 }
 .entry__section h3 {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 19px;
   font-weight: 600;
   line-height: 19px;
   color: #4b4a4a;
-  margin: 16px 0;
+  margin-bottom: 8px;
+}
+.entry__section h3 span {
+  color: #e21b88;
+  font-size: 16px;
+}
+.entry__section h3 .link {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  text-decoration: none;
+  color: #2626df;
+}
+.entry__section h3 .link i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.entry__section h3 .link:visited {
+  color: blueviolet;
 }
 .entry__section h4 {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: italic;
   line-height: 19px;
   color: #4b4a4a;
-  margin: 16px 0;
+  margin-bottom: 8px;
+}
+.entry__section h4 span {
+  color: #e21b88;
+}
+.entry__section h5 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
+}
+.entry__section h6 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 8px;
 }
 .entry__section .links {
   display: -webkit-box;
@@ -1033,33 +1087,155 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-}
-.entry__section .links .entry__link {
   margin-bottom: 16px;
 }
-.entry__section .links .entry__link i {
-  margin-right: 8px;
-  font-size: 18px;
-  color: #5ea4dd;
+.entry__section .links .link {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  text-decoration: none;
+  color: #2626df;
+}
+.entry__section .links .link i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.entry__section .links .link:visited {
+  color: blueviolet;
 }
 .entry__section p {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 19px;
   color: #4b4a4a;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+.entry__section p span {
+  color: #e21b88;
+}
+.entry__section p .link {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  text-decoration: none;
+  color: #2626df;
+}
+.entry__section p .link i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.entry__section p .link:visited {
+  color: blueviolet;
 }
 .entry__section ol {
   list-style: inside decimal;
+  margin-bottom: 16px;
 }
 .entry__section ol li {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 19px;
   color: #4b4a4a;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+}
+.entry__section ol li span {
+  color: #e21b88;
+}
+.entry__section ol li .link {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  text-decoration: none;
+  color: #2626df;
+}
+.entry__section ol li .link i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.entry__section ol li .link:visited {
+  font-size: 12px;
+  color: blueviolet;
+}
+.entry__section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (min-width: 599px) and (max-width: 870px) {
+  .entry__section .box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 599px) {
+  .entry__section .box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.entry__section .box .box__link {
+  width: 17%;
+  margin: 16px;
+  text-decoration: none;
+}
+@media (min-width: 599px) and (max-width: 870px) {
+  .entry__section .box .box__link {
+    width: 27%;
+  }
+}
+@media (max-width: 599px) {
+  .entry__section .box .box__link {
+    width: 39%;
+  }
+}
+.entry__section .box .box__link .item {
+  padding: 16px 8px 8px;
+  text-align: center;
+  height: 120px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.entry__section .box .box__link .item .logo {
+  height: 46px;
+}
+.entry__section .box .box__link .item i {
+  font-size: 46px;
+}
+.entry__section .box .box__link .item .fa-telegram {
+  color: #3390ec;
+}
+.entry__section .box .box__link .item .fa-facebook-square {
+  color: #0674e7;
+}
+.entry__section .box .box__link .item .title {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-top: 16px;
 }
 
 .legalisation__section {
@@ -1665,30 +1841,31 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .vaccinations__section h2 {
   color: #4b4a4a;
-  font-family: Golos;
-  font-size: 24px;
-  font-weight: 700;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 600;
   line-height: 27px;
   margin-bottom: 16px;
 }
 .vaccinations__section h3 {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 19px;
   font-weight: 600;
   line-height: 19px;
-  color: #e21b88;
+  color: #4b4a4a;
   margin: 16px 0;
 }
 .vaccinations__section h4 {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
+  font-style: italic;
   line-height: 19px;
   color: #4b4a4a;
   margin: 16px 0;
 }
 .vaccinations__section p {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -1699,15 +1876,33 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   list-style: inside decimal;
 }
 .vaccinations__section ol li {
-  font-family: Golos;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   color: #4b4a4a;
+  font-style: italic;
   margin-bottom: 8px;
 }
 .vaccinations__section ol li span {
   color: #e21b88;
+}
+.vaccinations__section h5 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
+}
+.vaccinations__section h6 {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin: 16px 0;
 }
 
 @font-face {
