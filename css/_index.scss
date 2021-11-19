@@ -160,6 +160,10 @@
         line-height: 34px;
         color: white;
         margin: 32px 0 8px;
+        @include for-phone-only {
+          font-size: 19px;
+          line-height: 24px;
+        }
       }
       .text {
         font-family: Raleway;
@@ -168,6 +172,83 @@
         line-height: 21px;
         color: white;
         margin: 16px 0 8px;
+      }
+    }
+    .carousel__card {
+      text-decoration: none;
+      .crysis {
+        text-align: center;
+        min-height: 400px;
+        padding: 16px;
+        background-image: url(../img/Slider-3-background.jpg);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        @include for-tablet-portrait {
+          background-image: url(../img/Slider-3-background.jpg);
+          background-position: top;
+          padding: 16px;
+          min-height: 300px;
+        }
+        @include for-phone-only {
+          background-position: center;
+          background-size: cover;
+          min-height: 250px;
+        }
+        .crysis__logo {
+          text-align: center;
+          align-items: flex-start;
+          width: 30%;
+          @include for-phone-only {
+            width: 50%;
+            margin: 8px 0;
+          }
+        }
+        h3 {
+          font-family: Raleway;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 34px;
+          color: #cc0001;
+          margin: 32px 0 0;
+          text-align: right;
+          @include for-phone-only {
+            font-size: 19px;
+            margin: 8px 0 8px;
+            font-weight: 600;
+          }
+          span {
+            font-weight: 600;
+            color: #cc0001;
+          }
+          @include for-tablet-portrait {
+            font-size: 21px;
+            line-height: 24px;
+            font-weight: 600;
+            margin: 28px 0 8px;
+          }
+          @include for-phone-only {
+            font-size: 21px;
+            line-height: 24px;
+            margin: 8px 0;
+          }
+        }
+        .text {
+          font-family: Raleway;
+          font-size: 19px;
+          font-weight: 600;
+          line-height: 21px;
+          color: #4b4a4a;
+          margin: 16px 0 8px;
+          @include for-phone-only {
+            margin: 0 0 8px;
+          }
+        }
       }
     }
 

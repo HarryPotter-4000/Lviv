@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Lviv</title>
 </head>
@@ -46,45 +45,50 @@
             </div>
         </div>
     </header>
-    <section class="container about__section">
+    <section class="container entry__section">
+        <!-- <div class="links"><a href="" class="link" target="blank"><i class="fas fa-link"></i></a></div> -->
+<!-- <a href="" class="link" target="blank"><i class="fas fa-link"></i></a> -->
         <h2>Полезная информация про Львов</h2>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-bus"></i>
                 <h3>Общественный транспорт</h3>
             </div>
-            
             <h4>Автобусы, маршрутки, трамваи, троллейбусы.</h4>
-            <p>В <span>маршрутках</span> и <span>автобусах</span> оплата наличными водителю на входе в транспорт (7 грн).</p>
-            <p>В <span>трамваях</span> и <span>троллейбусах</span> нужно покупать и компостировать талоны (7 грн). 
+            <p class="text">В <span>маршрутках</span> и <span>автобусах</span> оплата наличными водителю на входе в транспорт (7 грн).</p>
+            <p class="text">В <span>трамваях</span> и <span>троллейбусах</span> нужно покупать и компостировать талоны (7 грн). 
                 Талоны можно купить у водителя или в киосках (киосков, продающих талоны, очень мало).</p>
-            <p>Также в <span>трамваях</span> можно оплатить проезд через приложение Приват24, в некоторых трамваях можно оплатить проезд
+            <p class="text">Также в <span>трамваях</span> можно оплатить проезд через приложение Приват24, в некоторых трамваях можно оплатить проезд
                 бесконтактной картой.</p>
-            <p>Расписания общественного транспорта в городе нет, если оно вывешено на остановке, то общественный транспорт чаще всего
+            <p class="text">Расписания общественного транспорта в городе нет, если оно вывешено на остановке, то общественный транспорт чаще всего
                 его не придерживается.</p>
-            <p>Общественный транспорт Львова оснащен gps маячками, автобусы, маршрутки, трамваи и троллейбусы можно отслеживать на
-                карте в режиме реального времени - <a href="https://www.eway.in.ua/ua/cities/lviv">Система пошуку маршрутів громадського
-                    транспорту EasyWay</a>. Существуют веб версия и мобильное приложение EasyWay.</p>
+            <p class="text">Общественный транспорт Львова оснащен gps маячками, автобусы, маршрутки, трамваи и троллейбусы можно отслеживать на
+                карте в режиме реального времени:<br>
+                <a href="https://www.eway.in.ua/ua/cities/lviv" class="link" target="blank"><i class="fas fa-link"></i>Система пошуку маршрутів громадського
+                    транспорту EasyWay</a>. Существуют веб-версия и мобильное приложение EasyWay.</p>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-taxi"></i>
                 <h3>Такси во Львове</h3>
             </div>
-            <p>Uber, Bolt, Uklon.</p>
+            <p class="text">Uber, Bolt, Uklon.</p>
         </div>
-        <div class="item">
-            <div class="title">
-                <a href="https://booking.uz.gov.ua/ru/"><i class="fas fa-train"></i></a>
+        <div class="about__item">
+            <div class="about__title">
+                <i class="fas fa-subway"></i>
                 <h3>Сайт для покупки жд билетов</h3>
             </div>
+            <div class="links">
+                <a href="https://booking.uz.gov.ua/ru/" class="link" target="blank"><i class="fas fa-link"></i>booking.uz.gov.ua</a>
+            </div>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-utensils"></i>
                 <h3>Кафе, кофейни, рестораны</h3>
             </div>
-            <p>Недорогие кафе, где можно пообедать:</p>
+            <p class="text">Недорогие кафе, где можно пообедать:</p>
             <ul>
                 <li>“Пузата хата” - пр-т Шевченко, 10, ул. Сечевых Стрельцов, 12,</li>
                 <li>“GAZDA CAFE” - пр. Свободи 31 ( вхід з вулиці Тиктора ), круглосуточно,</li>
@@ -93,195 +97,224 @@
                 <li></li>
             </ul>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="far fa-flag"></i>
                 <h3>Покупка бчб флагов</h3>
             </div>
             <ul>
-                <li><a href="https://kitel.com.ua/flag_ua"></a> https://kitel.com.ua/flag_ua (Киев)</li>
-                <li><a href="http://www.kapterka.com.ua/"></a> http://www.kapterka.com.ua/ (Киев)</li>
-                <li><a href="https://praporec.com.ua/"></a> https://praporec.com.ua/ (Львов)</li>
                 <li>Иногда флаги можно купить в палатках возле оперного/ памятника Шевченко или на рынке Вернисаж на площади Вичева.</li>
+                <li>
+                    <a href="https://kitel.com.ua/flag_ua" class="link" target="blank"><i class="fas fa-link"></i>https://kitel.com.ua/flag_ua (Киев)</a>
+                </li>
+                <li>
+                    <a href="http://www.kapterka.com.ua/" class="link" target="blank"><i class="fas fa-link"></i>http://www.kapterka.com.ua/ (Киев)</a>
+                </li>
+                <li>
+                    <a href="https://praporec.com.ua/" class="link" target="blank"><i class="fas fa-link"></i>https://praporec.com.ua/ (Львов)</a>
+                </li>
             </ul>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-school"></i>
                 <h3>Сады и школы</h3>
             </div>
-            <h4>Cады</h4>
-            <p>Нужны:</p>
-            <ul>
+            <h3>Cады</h3>
+            <h4>Нужны:</h4>
+            <ol>
                 <li>справка про то, что ребенок может посещать садочок</li>
                 <li>ИНН родителя на которого договор с садочком заключается - нужен был.</li>
                 <li>Регистрацию не спрашивали</li>
                 <li>справка, что ребенок может посещать садок (берется в любом медцентре), справку не просили, но посмотрели карту прививок из беларуской пол-ки.</li>
+            </ol>
+            <ul>
+                <li>садков куча по всему городу</li>
+                <li>сервис +- одинаковый (отличный), 
+                    так что смотрите уже по внутренним плюшкам (ежедневный инглиш, танцы-шманцы и тд) конкретного садика и расположению</li>
+                <li>стоимость вокруг 9000 Гривен в месяц (это прям копейки по сравнению с Минском за хоть что-то похожее)</li>
+                <li>Отдавали, когда на руках не было посвидок вообще, 
+                    так что спросили только ИПН (в налоговой по бел паспорту можно сделать бесплатно) 
+                    и справку с медцентра о состоянии здоровья (в любом центре можно сделать), 
+                    но многие садки вообще без документов принимают</li>
+                <li>300 долларов: 5 раз питание, англ каждый день, до 10 деток в группе, качественные продукты, экскурсии и прогулки. В Минске такое удовольствие по качеству от евро 500 стоит. <span>@NІ</span></li>
+                <li>в понедельник пришли, нам провели мини-экскурсию, обсудили питание и прочие opr. вопросы, во вторник дочка уже пошла в сад. наш - 8к с питанием, ну и, вроде бы, это стандартная цена - 8-9к <span>@Igor Pesin</span></li>
             </ul>
-            <p>1) садков куча по всему городу</p>
-            <p>2) сервис +- одинаковый (отличный), 
-                так что смотрите уже по внутренним плюшкам (ежедневный инглиш, танцы-шманцы и тд) конкретного садика и расположению, </p>
-            <p>3) стоимость вокруг 9000 Гривен в месяц (это прям копейки по сравнению с Минском за хоть что-то похожее)</p>
-            <p>4) Отдавали, когда на руках не было посвидок вообще, 
-            так что спросили только ИПН (в налоговой по бел паспорту можно сделать бесплатно) 
-            и справку с медцентра о состоянии здоровья (в любом центре можно сделать), 
-            но многие садки вообще без документов принимают</p>
-            <p>300 долларов: 5 раз питание, англ каждый день, до 10 деток в группе, качественные продукты, экскурсии и прогулки.</p>
-            <p>В Минске такое удовольствие по качеству от евро 500 стоит.(NІ)</p>
-            <p>в понедельник пришли, нам провели мини-экскурсию, обсудили питание и прочие opr. вопросы, во вторник дочка уже пошла в сад. наш - 8к с питанием, ну и, вроде бы, это стандартная цена - 8-9к(Igor Pesin)</p>
             
-            
-            <h4>Школы</h4>
-            <p>Приходите в выбранную школу напрямую к директору и говорите: мы из РБ, хотим учиться у вас в школе. Мне назвали нужные доки и дали сразу заявление на оформление. Все))
-                Если ребенок 1-2 класс - точно украинский язык обучения. Если старше "русских"
-                классов полно. (Volha Miashkevich)</p>
-            <p>Русскоязычных школ нет (есть вроде при посольстве).
-                Если в школе есть еще классы русскоязычные, то 3 класс и выше. 
-                Там обучение на русском и украинском</p>
-            <p>Школы частные 9000-10000 гривен в мес. Они говорят 6-7 тыс, а плюс питание выходит 9-10, узнавала.
-                У беларускіх школах з 3 класа толькі ангельская, а ва украінскіх в першага класа. (Catherine)</p>
-            <p>Детям вообще не нужна регистрация в Украине. Для школы, тем более. В школу берут
+            <h3>Школы</h3>
+            <ul>
+                <li>Приходите в выбранную школу напрямую к директору и говорите: мы из РБ, хотим учиться у вас в школе. Мне назвали нужные доки и дали сразу заявление на оформление. Все))
+                    Если ребенок 1-2 класс - точно украинский язык обучения. Если старше "русских" классов полно <span>@Volha Miashkevich</span></li>
+                <li>Русскоязычных школ нет (есть вроде при посольстве).
+                    Если в школе есть еще классы русскоязычные, то 3 класс и выше. 
+                    Там обучение на русском и украинском</li>
+                <li>Школы частные 9000-10000 гривен в мес. Они говорят 6-7 тыс, а плюс питание выходит 9-10, узнавала.
+                    У беларускіх школах з 3 класа толькі ангельская, а ва украінскіх в першага класа <span>@Catherine</span></li>
+                <li>Детям вообще не нужна регистрация в Украине. Для школы, тем более. В школу берут
                     всех по закону. Без ИНН и справок, только свидетельство о рождении. В частную могут попросить виж, инн, так как там переводы денег. 
-                    В начальной школе нет оценок у них. Поэтому вообще можно не переживать за аттестат.(Dіапа)</p>
-            <p>Всем привет! Вдруг для кого-то актуально: нашла бел школу с официальным зачислением, в которой можно учиться онлайн. В том числе ученикам 1-2 классов (если кто искал раньше подобные школы, наверняка сталкивался, что первые два класса онлайн найти тяжело, из-за отсутствия системы оценивания).
-                        Нас из школы отпустили под заявление на три месяца по полит мотивам @ дальше сказали переводиться, или будут проблемы с социальными службами	- htt	:/is	art s b (Valeria)</p>
-            <p>Ребята, наши друзья запустили онлайн школу. Ребёнок юридически будет учиться в укр школе, но обучение на русском по белорусской программе. Также в программу входит украинский язык.
-                Обучение не дорогое, делают скидки, если семья в сложном положении. - httв //bvschooI com ua/ (Diana)</p>
+                    В начальной школе нет оценок у них. Поэтому вообще можно не переживать за аттестат <span>@Dіапа</span></li>
+                <li>Бел школа с официальным зачислением, в которой можно учиться онлайн: 
+                    <a href="https://smart-s.by" class="link" target="blank"><i class="fas fa-link"></i>smart-s.by...</a>
+                    В том числе ученикам 1-2 классов (если кто искал раньше подобные школы, наверняка сталкивался, 
+                    что первые два класса онлайн найти тяжело, из-за отсутствия системы оценивания).
+                    Нас из школы отпустили под заявление на три месяца по полит мотивам, 
+                    дальше сказали переводиться, или будут проблемы с социальными службами <span>@Valeria</span>
+                </li>
+                <li>Ребята, наши друзья запустили онлайн школу. Ребёнок юридически будет учиться в укр школе, но обучение на русском по белорусской программе. Также в программу входит украинский язык.
+                    Обучение не дорогое, делают скидки, если семья в сложном положении:
+                    <a href="http://byschool.com.ua/" class="link" target="blank"><i class="fas fa-link"></i>byschool.com.ua</a>
+                    <span>@Diana</span>
+                </li>
+            </ul>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-hotel"></i>
                 <h3>Отели, хостелы</h3>
             </div>
             <ul>
                 <li>Pop Art Hostel
-                    <a href="http://popartlviv.com/" target="blank">popartlviv.com</a>
+                    <a href="http://popartlviv.com/" class="link" target="blank"><i class="fas fa-link"></i>popartlviv.com</a>
                 </li>
                 <li>ifHostel
-                    <a href="https://ifhostel.com.ua/" target="blank">ifhostel.com.ua</a>
+                    <a href="https://ifhostel.com.ua/" class="link" target="blank"><i class="fas fa-link"></i>ifhostel.com.ua</a>
                 </li>
                 <li>Friends
-                    <a href="https://www.instagram.com/friends.hostel.lviv/" target="blank">instagram.com/friends...</a>
+                    <a href="https://www.instagram.com/friends.hostel.lviv/" class="link" target="blank"><i class="fas fa-link"></i>instagram.com/friends...</a>
                 </li>
                 <li>Seven
-                    <a href="https://leoterra.com/" target="blank">leoterra.com</a>
+                    <a href="https://leoterra.com/" class="link" target="blank"><i class="fas fa-link"></i>leoterra.com</a>
                 </li>
             </ul>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-hospital"></i>
                 <h3>Медцентры</h3>
             </div>
             <h4>Самые популярные частные медицинские центры Львова</h4>
             <ul>
                 <li><span>Медцентр Св. Параскеви</span> - м. Львів, вул. Тернопільська, 21б;<br>
-                    <p>вул. Заводська, 7;<br>
+                    <p class="text">вул. Заводська, 7;<br>
                         проспект Червоної Калини, 64;<br>
                         вул. Кульпарківська, 135.<br>
-                        <a href="https://www.medcenter.lviv.ua/" target="blank">medcenter.lviv.ua</a>
+                        <a href="https://www.medcenter.lviv.ua/" class="link" target="blank"><i class="fas fa-link"></i>medcenter.lviv.ua</a>
                     </p>                    
                 </li>
                 <li><span>Medicover</span> - ул. Антоновича, 102;<br>
-                    <p>ул. Стрийская, 204; ул. проф. Ковалика.<br>
-                        <a href="https://medicover.ua/ru/" target="blank">medicover.ua</a>
+                    <p class="text">ул. Стрийская, 204; ул. проф. Ковалика.<br>
+                        <a href="https://medicover.ua/ru/" class="link" target="blank"><i class="fas fa-link"></i>medicover.ua</a>
                     </p>
                 </li>
                 <li><span>Лікарня ЕКСПЕРТ</span><br>
-                    <p>
+                    <p class="text">
                         +38 097 22 33 911<br>
                         +38 073 22 33 911<br>
                         вулиця Шолом Алейхема, 11<br>
-                        <a href="https://experthospital.com.ua/" target="blank">experthospital.com.ua</a>
+                        <a href="https://experthospital.com.ua/" class="link" target="blank"><i class="fas fa-link"></i>experthospital.com.ua</a>
                     </p>
                 </li>
                 <li><span>Oxford medical</span> - пр. В. Черновола, 45А/9;<br>
-                    <p>
+                    <p class="text">
                         ул. Зубривская, 21.<br>
-                        <a href="https://lviv.oxford-med.com.ua" target="blank">lviv.oxford-med.com.ua</a>
+                        <a href="https://lviv.oxford-med.com.ua" class="link" target="blank"><i class="fas fa-link"></i>lviv.oxford-med.com.ua</a>
                     </p>
                 <li><span>Мережа стоматологій «Пародент»</span> - вул. Глибока, 4;<br>
-                    <p>
+                    <p class="text">
                         вул. Личаківська,52;<br>
                         вул. Чайковського, 29;<br>
                         вул. Шевченка, 87А.<br>
-                        <a href="https://parodent.com.ua/ru/" target="blank">parodent.com.ua</a>
+                        <a href="https://parodent.com.ua/ru/" class="link" target="blank"><i class="fas fa-link"></i>parodent.com.ua</a>
                     </p>
                 </li>
                 <li><span>Мережа дитячих медичних центрів «Веселка»</span> - вул. Червоної Калини, 68;<br>
-                    <p>
+                    <p class="text">
                         вул. Щирецька, 36.<br>
-                        <a href="https://veselka.clinic/" target="blank">veselka.clinic/</a>
+                        <a href="https://veselka.clinic/" class="link" target="blank"><i class="fas fa-link"></i>veselka.clinic/</a>
                     </p>
                 </li>
             </ul>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-faucet"></i>
                 <h3>Питьевая вода во Львове</h3>
             </div>
-            <p>В разных районах города разное качество питьевой воды из крана. В качестве альтернативы можно покупать питьевую воду следующими способами:</p>
+            <p class="text">В разных районах города разное качество питьевой воды из крана. В качестве альтернативы можно покупать питьевую воду следующими способами:
+            </p>
             <ol>
-                <li>Водоматы (1 грн за литр, нужна своя тара, водоматы можно найти в большинстве магазинов Близенько и Рукавичка).</a>
+                <li>Водоматы (1 грн за литр, нужна своя тара, водоматы можно найти в большинстве магазинов Близенько и Рукавичка).
                 </li>
-                <li>Покупка воды в магазинах (20+- грн за 5 л).</a>
+                <li>Покупка воды в магазинах (20+- грн за 5 л).
                 </li>
                 <li>Доставки воды на дом:
                     <ul>
-                        <li>Аляска от 81 грн за бутль <a href="https://mywatershop.ua/catalog/voda-v-butlyakh/alyaska/" target="blank">mywatershop.ua</a></li>
-                        <li>Аквамен от 52 грн за бутль <a href="https://www.aquaman.lviv.ua/product-category/%d0%b2%d0%be%d0%b4%d0%b0-%d1%82%d0%b0-%d0%bd%d0%b0%d0%bf%d0%be%d1%97/%d0%b2%d0%be%d0%b4%d0%b0-189%d0%bb/" target="blank">aquaman.lviv.ua</a></li>
-                        <li>Дион от 60 грн за бутль <a href="https://www.aquadion.com/prod-category/water/?orderby=price" target="blank">aquadion.com</a></li>
+                        <li>Аляска от 81 грн за бутль:<br>
+                            <a href="https://mywatershop.ua/catalog/voda-v-butlyakh/alyaska/" class="link" target="blank"><i class="fas fa-link"></i>mywatershop.ua</a>
+                        </li>
+                        <li>Аквамен от 52 грн за бутль:<br>
+                            <a href="https://www.aquaman.lviv.ua/product-category/%d0%b2%d0%be%d0%b4%d0%b0-%d1%82%d0%b0-%d0%bd%d0%b0%d0%bf%d0%be%d1%97/%d0%b2%d0%be%d0%b4%d0%b0-189%d0%bb/" class="link" target="blank"><i class="fas fa-link"></i>aquaman.lviv.ua</a>
+                        </li>
+                        <li>Дион от 60 грн за бутль:<br>
+                            <a href="https://www.aquadion.com/prod-category/water/?orderby=price" class="link" target="blank"><i class="fas fa-link"></i>aquadion.com</a>
+                        </li>
                     </ul>
                 </li>
             </ol>
-            <p>При первом заказе доставки воды на дом отдельно оплачиваются бутли и помпа.</p>
+            <p class="text">При первом заказе доставки воды на дом отдельно оплачиваются бутли и помпа.</p>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-fire"></i>
                 <h3>Полезная информация для обладателей котла в квартире</h3>
             </div>
-            <p>Електровитяжка може бути небезпечною <a href="https://104.ua/ua/safety/id/elektrovitjazhka-mozhe-buti-nebezpechnoju-21431" target="blank">104.ua</a></p>
-            <p>Обов'язково повинен бути газосигналізатор газу та чадного газу</p>
+            <p class="text">Електровитяжка може бути небезпечною 
+                <a href="https://104.ua/ua/safety/id/elektrovitjazhka-mozhe-buti-nebezpechnoju-21431" class="link" target="blank"><i class="fas fa-link"></i>104.ua</a>
+            </p>
+            <p class="text">Обов'язково повинен бути газосигналізатор газу та чадного газу</p>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-search"></i>
                 <h3>Поиск/возврат потерянных вещей</h3>
             </div>
-            <p>Группа в facebook <a href="https://www.facebook.com/groups/LostAndFoundLviv/?ref=share" target="blank">facebook.com</a></p>
+            <p class="text">Группа в facebook
+                <a href="https://www.facebook.com/groups/LostAndFoundLviv/?ref=share" class="link" target="blank"><i class="fas fa-link"></i>facebook.com/groups</a>
+            </p>
         </div>
-        <div class="item">
-            <div class="title">
+        <div class="about__item">
+            <div class="about__title">
                 <i class="fas fa-book"></i>
                 <h3>Справочник беларуса в Польше</h3>
             </div>
-            <p>Полезная информация для беларусов, переехавших в Польшу, а также планирющих переезд <a href="https://drive.google.com/file/d/1hY2klW6bk1ywTj1ItyN6lvqTnLaKARpM/view?usp=sharing" target="blank">drive.google.com</a></p>
+            <p class="text">Полезная информация для беларусов, переехавших в Польшу, а также планирющих переезд:
+                <a href="https://drive.google.com/file/d/1hY2klW6bk1ywTj1ItyN6lvqTnLaKARpM/view?usp=sharing" class="link" target="blank"><i class="fas fa-link"></i>drive.google.com/file</a>
+            </p>
         </div>
-        <!-- <div class="item">
-            <div class="title">
-                <i class="fas fa-fire"></i>
-                <h3>Полезная информация для обладателей котла в квартире</h3>
+        <div class="about__item">
+            <div class="about__title">
+                <i class="fas fa-vial"></i>
+                <h3>Где сдать тест на COVID-19 в РБ</h3>
             </div>
-            <p>Електровитяжка може бути небезпечною <a href="https://104.ua/ua/safety/id/elektrovitjazhka-mozhe-buti-nebezpechnoju-21431" target="blank">104.ua</a></p>
-            <p>Обов'язково повинен бути газосигналізатор газу та чадного газу</p>
-        </div> -->
+            <ul>
+                <li><a href="https://covidtest.by/" class="link" target="blank"><i class="fas fa-link"></i>covidtest.by</a><br>
+                    Можно онлайн записаться в одну из лаб, и если экспресс (утром сдать, вечером получить результат)
+                    там доплаты и около 100р выходит. если на след день, то гдето 60р с доставкой. 
+                    Я, например, выбирала лабу которая на долгиновский тракт 160 <span>@Валошка</span>.
+                </li>
+                <li><a href="https://rcheph.by/uslugi/grazhdanam/testirovanie-na-covid-19/" class="link" target="blank"><i class="fas fa-link"></i>rcheph.by/uslugi...</a><br>
+                    здесь онлайн запись,  в субботу результат вечером можно забрать, т.е. сегодня на сегодня получается. И цена 45 руб <span>@Malpachka</span>.
+                </li>
+                <li>
+                    Самый дешевый вариант - это центры эпидемиологии в Минске или областных городах. Стоит 40 рублей. Запись можно осуществить через талон бай. В Минске результат на след день выдают (мне сказали так)  в Бресте результат выдают в тот же день , если сдавали тест в первой половине дня 8:30-12:30 работают и в сб ,и вс.
+                    Выдают в формате необходимом для выезда зарубеж <span>@Ivan</span>.
+                </li>
+            </ul>
+        </div>
     </section>
 </body>
 
 </html>
-
-
-
-
-
- 
-
-
-
-
-
 
 
 

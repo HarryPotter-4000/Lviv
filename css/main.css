@@ -13,8 +13,7 @@
 /* вид текста label при активном переключателе */
 
 .hide:checked + label h3 {
-    color: #cc0001;
-    margin-bottom: 16px;
+    color: #e21b88;
     border-bottom: 0;
 }
 /* когда чекбокс активен показываем блоки с содержанием  */
@@ -22,7 +21,7 @@
     display: block; 
     background: white;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
-    padding: 16px;
+    padding: 0 8px;
     /* чуточку анимации при появлении */
     -webkit-animation:fade ease-in 0.5s; 
     -moz-animation:fade ease-in 0.5s;
@@ -42,8 +41,7 @@ to { opacity: 1 }
 to { opacity: 1 }   
 }
 .hide + label:before {
-    /* background-color: grey; */
-    color: grey;
+    color: #e21b88;
     content: "\002B";
     display: block;
     float: left;
@@ -51,7 +49,7 @@ to { opacity: 1 }
     font-weight: bold;
     height: 16px;
     line-height: 16px;
-    margin: 3px 5px 3px 0;
+    margin: 0px 8px 3px 0;
     text-align: center;
     width: 16px;
     -webkit-border-radius: 10%;
@@ -60,6 +58,5 @@ to { opacity: 1 }
 }
 .hide:checked + label:before {
     content: "\2212";
-    color: #cc0001;
-    /* background-color: #d67d08; */
+    color: #e21b88;
 }
