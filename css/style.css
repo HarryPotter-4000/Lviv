@@ -622,8 +622,8 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   background: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(67%, rgba(230, 16, 16, 0.703985818)), to(white));
-  background: linear-gradient(180deg, #ffffff 0%, rgba(230, 16, 16, 0.703985818) 67%, white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(86%, rgba(230, 16, 16, 0.703985818)), to(white));
+  background: linear-gradient(180deg, #ffffff 0%, rgba(230, 16, 16, 0.703985818) 86%, white 100%);
   -webkit-box-shadow: 0px 5px 5px -5px rgba(87, 89, 91, 0.6) inset;
           box-shadow: 0px 5px 5px -5px rgba(87, 89, 91, 0.6) inset;
   -webkit-transition-duration: 0.25s;
