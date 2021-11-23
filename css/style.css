@@ -518,11 +518,12 @@ header .nav__container .navigation__menu li {
 header .nav__container .navigation__menu li a {
   display: inline-block;
   text-decoration: none;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000;
   padding: 24px 16px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #4b4a4a;
 }
 header .nav__container .navigation__menu li a:hover {
   color: #cc0001;
@@ -631,9 +632,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box {
 header .nav__container .navigation__mobile .navigation-mobile__box .navigation-mobile__item {
   display: block;
   padding: 16px 24px;
-  color: #2c2b2b;
-  font-size: 18px;
-  font-weight: 600;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #4b4a4a;
   text-decoration: none;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
@@ -1524,10 +1527,10 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 
 .footer__section {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   left: 0;
-  right: 0;
+  bottom: 0;
+  width: 100%;
   min-height: 68px;
   display: -webkit-box;
   display: -ms-flexbox;
