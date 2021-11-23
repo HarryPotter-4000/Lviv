@@ -219,6 +219,9 @@
                 }
             }
         }
+        ul {
+            padding-left: 22px;
+        }
     }
     ul {
         list-style: inside;
@@ -250,6 +253,9 @@
                     color: blueviolet;
                 }
             }
+        }
+        ol {
+            padding-left: 22px;
         }
     }
     .box {
@@ -463,5 +469,106 @@
         }
         
     }
+}
+.footer__section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include for-tablet-portrait {
+        min-height: 58px;
+        background-color: #cc0001;
+        box-shadow: 0px -5px 9px -5px rgba(87, 89, 91, 0.6);
+    }
+    @include for-phone-only {
+        min-height: 38px;
+        background-color: #cc0001;
+        box-shadow: 0px -5px 9px -5px rgba(87, 89, 91, 0.6);
+    }
+    .about {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #4b4a4a;
+        text-align: center;
+        margin: 0;
+        .link {
+            color: #cc0001;
+            text-decoration: none;
+            i {
+                &:hover {
+                    transition: all 1s linear;
+                    transform: scale(1.4);
+                }
+            }
+            &:hover {
+                font-weight: 700;
+            }
+            &:visited {
+                color: #cc0001;
+                @include for-tablet-portrait {
+                    color: white;
+                }
+            }
+            @include for-tablet-portrait {
+                color: white;
+            }
+        }
+        @include for-tablet-portrait {
+            color: white;
+        }
+        @include for-phone-only {
+            display: none;
+        }
+    }
+    .text {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #4b4a4a;
+        text-align: center;
+        margin: 0;
+        @include for-tablet-portrait {
+            color: white;
+        }
+        @include for-phone-only {
+            color: white;
+        }
+    }
+    .link {
+        color: #cc0001;
+        text-decoration: none;
+        i {
+            &:hover {
+                transition: all 1s linear;
+                transform: scale(1.2);
+            }
+        }
+        &:hover {
+            font-weight: 700;
+        }
+        &:visited {
+            color: #cc0001;
+            @include for-tablet-portrait {
+                color: white;
+            }
+            @include for-phone-only {
+                color: white;
+            }
+        }
+        @include for-tablet-portrait {
+            color: white;
+        }
 
+        @include for-phone-only {
+            color: white;
+        }
+    }
 }
