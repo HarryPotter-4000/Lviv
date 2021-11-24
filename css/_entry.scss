@@ -8,6 +8,7 @@
         @content;
     }
 }
+
 .entry__section {
     padding: 100px 16px 16px;
     h1 {
@@ -41,7 +42,7 @@
         .link {
             font-family: Raleway;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             font-style: italic;
             line-height: 19px;
             text-decoration: none;
@@ -79,8 +80,8 @@
         }
         .link {
             font-family: Raleway;
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: 500;
             font-style: italic;
             line-height: 19px;
             text-decoration: none;
@@ -97,7 +98,7 @@
     h6 {
         font-family: Raleway;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         font-style: italic;
         line-height: 19px;
         color: #4b4a4a;
@@ -115,7 +116,7 @@
             .link {
                 font-family: Raleway;
                 font-size: 19px;
-                font-weight: 400;
+                font-weight: 500;
                 font-style: italic;
                 line-height: 24px;
                 text-decoration: none;
@@ -146,8 +147,8 @@
         margin-bottom: 16px;
         .link {
             font-family: Raleway;
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: 500;
             font-style: italic;
             line-height: 19px;
             text-decoration: none;
@@ -173,8 +174,8 @@
         }
         .link {
             font-family: Raleway;
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: 500;
             font-style: italic;
             line-height: 19px;
             text-decoration: none;
@@ -203,8 +204,8 @@
             }
             .link {
                 font-family: Raleway;
-                font-size: 16px;
-                font-weight: 400;
+                font-size: 15px;
+                font-weight: 500;
                 font-style: italic;
                 line-height: 19px;
                 text-decoration: none;
@@ -238,8 +239,8 @@
             }
             .link {
                 font-family: Raleway;
-                font-size: 16px;
-                font-weight: 400;
+                font-size: 15px;
+                font-weight: 500;
                 font-style: italic;
                 line-height: 19px;
                 text-decoration: none;
@@ -249,7 +250,6 @@
                     margin-right: 4px;
                 }
                 &:visited {
-                    font-size: 12px;
                     color: blueviolet;
                 }
             }
@@ -337,7 +337,7 @@
             h6 {
                 font-family: Raleway;
                 font-size: 16px;
-                font-weight: 400;
+                font-weight: 500;
                 font-style: italic;
                 line-height: 19px;
                 color: #4b4a4a;
@@ -351,7 +351,7 @@
                 .link {
                     font-family: Raleway;
                     font-size: 16px;
-                    font-weight: 400;
+                    font-weight: 500;
                     font-style: italic;
                     line-height: 19px;
                     text-decoration: none;
@@ -378,7 +378,7 @@
                 .link {
                     font-family: Raleway;
                     font-size: 16px;
-                    font-weight: 400;
+                    font-weight: 500;
                     font-style: italic;
                     line-height: 19px;
                     text-decoration: none;
@@ -408,7 +408,7 @@
                     .link {
                         font-family: Raleway;
                         font-size: 16px;
-                        font-weight: 400;
+                        font-weight: 500;
                         font-style: italic;
                         line-height: 19px;
                         text-decoration: none;
@@ -440,7 +440,7 @@
                     .link {
                         font-family: Raleway;
                         font-size: 16px;
-                        font-weight: 400;
+                        font-weight: 500;
                         font-style: italic;
                         line-height: 19px;
                         text-decoration: none;
@@ -468,107 +468,5 @@
             }
         }
         
-    }
-}
-.footer__section {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 68px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @include for-tablet-portrait {
-        min-height: 58px;
-        background-color: #cc0001;
-        box-shadow: 0px -5px 9px -5px rgba(87, 89, 91, 0.6);
-    }
-    @include for-phone-only {
-        min-height: 38px;
-        background-color: #cc0001;
-        box-shadow: 0px -5px 9px -5px rgba(87, 89, 91, 0.6);
-    }
-    .about {
-        font-family: Raleway;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 21px;
-        color: #4b4a4a;
-        text-align: center;
-        margin: 0;
-        .link {
-            color: #cc0001;
-            text-decoration: none;
-            i {
-                &:hover {
-                    transition: all 1s linear;
-                    transform: scale(1.4);
-                }
-            }
-            &:hover {
-                font-weight: 700;
-            }
-            &:visited {
-                color: #cc0001;
-                @include for-tablet-portrait {
-                    color: white;
-                }
-            }
-            @include for-tablet-portrait {
-                color: white;
-            }
-        }
-        @include for-tablet-portrait {
-            color: white;
-        }
-        @include for-phone-only {
-            display: none;
-        }
-    }
-    .text {
-        font-family: Raleway;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 21px;
-        color: #4b4a4a;
-        text-align: center;
-        margin: 0;
-        @include for-tablet-portrait {
-            color: white;
-        }
-        @include for-phone-only {
-            color: white;
-        }
-    }
-    .link {
-        color: #cc0001;
-        text-decoration: none;
-        i {
-            &:hover {
-                transition: all 1s linear;
-                transform: scale(1.2);
-            }
-        }
-        &:hover {
-            font-weight: 700;
-        }
-        &:visited {
-            color: #cc0001;
-            @include for-tablet-portrait {
-                color: white;
-            }
-            @include for-phone-only {
-                color: white;
-            }
-        }
-        @include for-tablet-portrait {
-            color: white;
-        }
-
-        @include for-phone-only {
-            color: white;
-        }
     }
 }

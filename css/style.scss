@@ -4,13 +4,77 @@
 @import "_entry.scss";
 
 
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-Bold.woff") format("woff");
+    src: url("/Raleway/Raleway-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
 
 @font-face {
-    font-family: Golos;
-    src: url(../Golos-Text.web/PT/PT/Golos-Text/Golos-Text_VF.WOFF);
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-SemiBold.woff") format("woff");
+    src: url("/Raleway/Raleway-SemiBold.woff2") format("woff2");
+    font-weight: 600;
 }
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-Medium.woff") format("woff");
+    src: url("/Raleway/Raleway-Medium.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-MediumItalic.ttf") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-Regular.woff") format("woff");
+    src: url("/Raleway/Raleway-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/Raleway/Raleway-Italic.ttf") format("ttf");
+    src: url("/Raleway/Raleway-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+// font-weight: 700;
+// font-size: 24px;
+// font-size: 21px;
+
+// font-weight: 600;
+// font-size: 19px;
+// font-size: 16px;
+
+// font-weight: 400;
+// font-size: 16px;
+
+// font-weight: 500;
+// font-size: 12px;
+// font-size: 16px;
+// font-size: 19px;
+
+// font-weight: 400;
+// font-style: italic;
+// font-size: 16px;
+// font-size: 19px;
+
+// font-weight: 500;
+// font-style: italic;
+// font-size: 16px;
+
 .container {
-    font-family: Golos;
+    font-family: "Raleway";
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
