@@ -312,7 +312,7 @@
 
   .footer__about {
     font-family: Raleway;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     color: #4b4a4a;
@@ -326,12 +326,12 @@
       i {
         &:hover {
           transition: all 1s linear;
-          transform: scale(1.4);
+          transform: scale(1.2);
         }
       }
 
       &:hover {
-        font-weight: 700;
+        font-weight: 600;
       }
 
       &:visited {
@@ -358,7 +358,7 @@
 
   .footer__text {
     font-family: Raleway;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     color: #4b4a4a;
@@ -381,12 +381,12 @@
     i {
       &:hover {
         transition: all 1s linear;
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
 
     &:hover {
-      font-weight: 700;
+      font-weight: 600;
     }
 
     &:visited {

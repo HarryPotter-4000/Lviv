@@ -1054,7 +1054,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .footer__section .footer__about {
   font-family: Raleway;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 21px;
   color: #4b4a4a;
@@ -1068,11 +1068,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .footer__section .footer__about .link i:hover {
   -webkit-transition: all 1s linear;
   transition: all 1s linear;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .footer__section .footer__about .link:hover {
-  font-weight: 700;
+  font-weight: 600;
 }
 .footer__section .footer__about .link:visited {
   color: #cc0001;
@@ -1099,7 +1099,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .footer__section .footer__text {
   font-family: Raleway;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 21px;
   color: #4b4a4a;
@@ -1123,11 +1123,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .footer__section .link i:hover {
   -webkit-transition: all 1s linear;
   transition: all 1s linear;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .footer__section .link:hover {
-  font-weight: 700;
+  font-weight: 600;
 }
 .footer__section .link:visited {
   color: #cc0001;
@@ -1192,14 +1192,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section h3 .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section h3 .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section h4 {
   font-family: Raleway;
@@ -1226,19 +1226,19 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section h5 .link {
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section h5 .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section h5 .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section h6 {
   font-family: Raleway;
@@ -1274,7 +1274,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 24px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 @media (min-width: 599px) and (max-width: 870px) {
   .entry__section .rent__box .links .link {
@@ -1287,14 +1287,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   }
 }
 .entry__section .rent__box .links .link i {
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 4px;
 }
 .entry__section .rent__box .links .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .rent__box .text {
-  margin-bottom: 0;
+  margin: 0;
 }
 .entry__section .links {
   display: -webkit-box;
@@ -1311,19 +1311,19 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section .links .link {
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .links .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section .links .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .text {
   font-family: Raleway;
@@ -1338,19 +1338,19 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section .text .link {
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .text .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section .text .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section ol {
   list-style: inside decimal;
@@ -1369,12 +1369,12 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section ol li .link {
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section ol li .link i {
   font-size: 14px;
@@ -1382,7 +1382,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section ol li .link:visited {
   font-size: 12px;
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section ol ul {
   padding-left: 22px;
@@ -1404,19 +1404,19 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section ul li .link {
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section ul li .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section ul li .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section ul ol {
   padding-left: 22px;
@@ -1546,14 +1546,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .demo .subsection .links .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section .demo .subsection .links .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .demo .subsection .text {
   font-family: Raleway;
@@ -1573,14 +1573,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .demo .subsection .text .link i {
   font-size: 14px;
   margin-right: 4px;
 }
 .entry__section .demo .subsection .text .link:visited {
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .demo .subsection ol {
   list-style: inside decimal;
@@ -1604,7 +1604,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .demo .subsection ol li .link i {
   font-size: 14px;
@@ -1612,7 +1612,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section .demo .subsection ol li .link:visited {
   font-size: 12px;
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .demo .subsection ul {
   list-style: inside;
@@ -1636,7 +1636,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   font-style: italic;
   line-height: 19px;
   text-decoration: none;
-  color: #2626df;
+  color: #1b62e6;
 }
 .entry__section .demo .subsection ul li .link i {
   font-size: 14px;
@@ -1644,7 +1644,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section .demo .subsection ul li .link:visited {
   font-size: 12px;
-  color: blueviolet;
+  color: #8742d6;
 }
 .entry__section .about__item .about__title {
   display: -webkit-box;
