@@ -1555,7 +1555,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 .entry__section .demo .subsection .links .link:visited {
   color: #8742d6;
 }
-.entry__section .demo .subsection .text {
+.entry__section .demo .subsection .demo__text {
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
@@ -1563,10 +1563,10 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   color: #4b4a4a;
   margin-bottom: 16px;
 }
-.entry__section .demo .subsection .text span {
+.entry__section .demo .subsection .demo__text span {
   color: #e21b88;
 }
-.entry__section .demo .subsection .text .link {
+.entry__section .demo .subsection .demo__text .link {
   font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
@@ -1575,11 +1575,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   text-decoration: none;
   color: #1b62e6;
 }
-.entry__section .demo .subsection .text .link i {
+.entry__section .demo .subsection .demo__text .link i {
   font-size: 14px;
   margin-right: 4px;
 }
-.entry__section .demo .subsection .text .link:visited {
+.entry__section .demo .subsection .demo__text .link:visited {
   color: #8742d6;
 }
 .entry__section .demo .subsection ol {
