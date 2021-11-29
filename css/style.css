@@ -792,7 +792,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     margin: 0 0 16px 24px;
   }
 }
-.container .carousel .lessons .text {
+.container .carousel .lessons .description {
   color: #4b4a4a;
   font-family: Raleway;
   font-size: 21px;
@@ -800,19 +800,19 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   line-height: 24px;
   margin: 16px 0 0 100px;
 }
-.container .carousel .lessons .text span {
+.container .carousel .lessons .description span {
   font-weight: 600;
   color: #cc0001;
 }
 @media (min-width: 599px) and (max-width: 870px) {
-  .container .carousel .lessons .text {
+  .container .carousel .lessons .description {
     font-size: 21px;
     line-height: 24px;
     margin: 0 0 16px 80px;
   }
 }
 @media (max-width: 599px) {
-  .container .carousel .lessons .text {
+  .container .carousel .lessons .description {
     font-size: 16px;
     line-height: 21px;
     margin: 0 0 0 24px;
@@ -869,7 +869,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     line-height: 24px;
   }
 }
-.container .carousel .meet .text {
+.container .carousel .meet .description {
   font-family: Raleway;
   font-size: 19px;
   font-weight: 500;
@@ -965,7 +965,7 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
     margin: 8px 0;
   }
 }
-.container .carousel .carousel__card .crysis .text {
+.container .carousel .carousel__card .crysis .description {
   font-family: Raleway;
   font-size: 19px;
   font-weight: 600;
@@ -974,11 +974,11 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   margin: 16px 0 8px;
 }
 @media (max-width: 599px) {
-  .container .carousel .carousel__card .crysis .text {
+  .container .carousel .carousel__card .crysis .description {
     margin: 0 0 8px;
   }
 }
-.container .text {
+.container .description {
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
@@ -1421,6 +1421,14 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
 }
 .entry__section ul ol {
   padding-left: 22px;
+}
+.entry__section ul ul {
+  padding-left: 22px;
+  list-style: none;
+}
+.entry__section ul ul .link {
+  display: inline-block;
+  margin: 8px 0;
 }
 .entry__section .box {
   display: -webkit-box;

@@ -257,6 +257,14 @@
         ol {
             padding-left: 22px;
         }
+        ul {
+            padding-left: 22px;
+            list-style: none;
+            .link {
+                display: inline-block;
+                margin: 8px 0;
+            }
+        }
     }
     .box {
         display: flex;
