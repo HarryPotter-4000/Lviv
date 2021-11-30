@@ -1430,6 +1430,18 @@ header .nav__container .navigation__mobile .navigation-mobile__box .navigation-m
   display: inline-block;
   margin: 8px 0;
 }
+.entry__section .contacts {
+  list-style: none;
+  margin-left: 22px;
+}
+.entry__section .contacts li {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #4b4a4a;
+  margin-bottom: 4px;
+}
 .entry__section .box {
   display: -webkit-box;
   display: -ms-flexbox;
